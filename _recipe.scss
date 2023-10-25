@@ -1,0 +1,284 @@
+
+
+.recept {
+    .bigBox{
+       background-color: white;
+      
+      
+        @include bp-sm {
+          padding-top: 3rem;
+            border-radius: 5px;
+             margin: 3rem;
+        }
+        @include bp-md {
+            padding:3rem 3rem;
+      
+        }
+
+        @include bp-lg {
+            display: flex;
+            //justify-content: center;
+            justify-content: space-around;
+            //padding:5rem;
+        }
+       
+            .section3{
+              //  background-color: red;
+              padding-top: 3.5rem;
+              @include bp-sm {
+
+                padding-top: 1rem;
+            }
+                //!Här är rubriken i recept
+                .recipe-heading{
+                    // padding-top:3rem;
+                //  padding-left:1rem;
+                    //text-align: center;
+                    margin-left: 0.8rem;
+                    
+                }
+                .recept-img {
+                 
+                    padding: 1rem;
+            
+               
+                   // margin: auto;
+                 
+
+                    @include bp-sm {
+
+                        height: 380px;
+                     
+                        width: 380px;
+         
+          
+                    }
+                    @include bp-lg {
+                        height: 500px;
+                     
+                        width: 500px;
+                
+                    }
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        border-radius: 5px;
+                    }
+                }
+                .time-ingredients-container{
+                    // margin: 2rem 1rem;
+                    background-color: $cta-color;
+                    padding:2rem 1rem;
+                    border-radius: 5px;
+                    margin:0rem 1rem;
+                  
+                
+                    //max-width: 348px;
+                    
+                   
+                   
+                   // margin: auto;
+                    //justify-content: center;
+                    @include bp-sm {
+                        max-width: 380px;
+            
+                    }
+                  
+                    @include bp-lg {
+                        //max-width: 380px;
+            
+                    }
+                  
+                    
+                    @include flex-spacebetween(space-around);
+
+                    @include bp-lg {
+                       
+                        max-width: 470px;
+                
+                    }
+                    .time-box{
+                    // display: flex;
+                    // align-items: center;
+                  
+                   text-align: center;
+                    
+                        .material-symbols-outlined{
+                    
+                        display: block;
+                        margin-bottom: 0.5rem;
+                
+                        }
+                        
+                    }
+                    .ingridients-box{
+
+                        // display: flex;
+                        // align-items: center;
+                        text-align: center;
+                        .material-symbols-outlined{
+                        
+                            display: block;
+                            margin-bottom: 0.5rem;
+                    
+                            }
+                    }
+                    .time-recipe{
+                    
+                        font-size: 1rem;
+                        
+                        // @include flexbox(stretch);
+                    }
+                    //!Hur många ingredinser som är i receptet
+                    .buy-ingredients{
+                
+                    }
+                    //! Vilken bas ingrediens som är huvudbasen i rätten
+                    .base-ingredients{
+                
+                
+                
+                    }
+                    //! ikoner ovanför texten
+                    .material-symbols-outlined{
+                    
+                    }
+                        
+                }
+
+                //!Information i recept sidorna
+                .info-recipe{
+                    //padding-top: 1rem;
+                    background-color: white;
+                    //background-color: $ingredients-color;
+                    padding:2rem 0rem;
+                    //margin-bottom: 2rem;
+                    border-radius: 5px;
+                   // margin: 3rem 0rem;
+                    max-width: 400px;
+                   // margin: auto;
+                   margin-left: 1rem;
+
+                    @include bp-lg {
+                       
+                        max-width: 470px;
+                
+                    }
+                
+                }
+            }
+
+        .howToMake{
+       
+            // @include bp-sm {
+            //     margin: 0rem 0rem;
+            // }
+            @include bp-lg {
+                margin: 4.9rem 0rem;
+            }
+            @include bp-xl {
+                margin: 5.8rem 0rem;
+            }
+
+            //! container runt "ingredinser" och "Gör såhär"
+            .steps-container{
+                //padding: 3rem 0rem;
+               // background-color: $steps-container-color;
+                max-width: 600px;
+              
+               //margin: auto;
+
+                h2{
+                    margin-left: 1rem;
+                    margin-bottom: 1.8rem;
+                }
+            
+                .steps-list{
+                   justify-content: center;
+                    list-style: none;
+                }
+                li{
+                    background-color: $ingredients-color;
+                    margin:1rem;
+                    padding:1rem;
+                    border-radius: 5px;
+                    
+                }
+
+                .steps-list-howTo{
+                   // justify-content: center;
+                    li{
+                        list-style:circle;
+                        list-style-position: inside;
+                    }
+
+
+                }
+
+                ul{
+
+                    list-style-type: none;
+                .checkBoxContainer{
+
+                    list-style-type: none;
+
+                    .steps-list-howTo{
+                        // justify-content: center;
+                       
+                        
+                        background-color: $ingredients-color;
+                        // margin:1rem;
+                        // padding:1rem;
+                        // border-radius: 5px;
+                        
+                        
+                         
+     
+     
+                     }
+
+                }
+
+                }
+
+
+                &.howToContainer{
+                    margin-top: 5rem;
+                    padding-bottom: 3rem;
+
+                    @include bp-sm {
+
+                        padding-bottom: 3rem;
+          
+                    }
+                    @include bp-lg {
+
+                        padding-bottom: 0rem;
+          
+                    }
+                 
+                }
+            }
+
+
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
