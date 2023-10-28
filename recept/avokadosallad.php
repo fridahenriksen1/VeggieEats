@@ -35,7 +35,7 @@
 
     <?php 
     $pagetitel = "Enskilda recept";
-    include("abtest/header.php");
+    include("/abtest/header.php");
     ?>
 
     <main class="container ">
