@@ -1,38 +1,11 @@
-<!DOCTYPE html>
-<html lang="sv">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VeggieEats</title>
-    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" > -->
-    <!-- <link href="https://api.fontshare.com/v2/css?f[]=satoshi@700,500,300,400&display=swap" rel="stylesheet"> -->
+<?php 
+    $pagetitel = "Enskilda recept";
+    include("abtest/header.php");
+    ?>
+    <main class="container ">
+        <div class="recept" id="7">
 
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
-    <!-- Oswald -->
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../style.css">
-</head>
-
-<body>
-    <header class="main-header">
-        <div class="container">
-            <a class="logo" href="../index.html">VeggieEats</a>
-            <nav class="main-nav">
-                <ul class="main-menu">
-                    <li class="main-menu-item">
-                        <a class="link" href="/recepie.html">Alla recept</a>
-                    </li>
-                    <li class="main-menu-item">
-                        <a class="link" href="/blogg.html">Tips</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main class="container">
-        <div class="recept" id="2">
 
 
 
