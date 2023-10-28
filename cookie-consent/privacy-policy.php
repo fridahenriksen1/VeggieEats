@@ -1,41 +1,10 @@
-<!-- <?php require "header.php"; ?> -->
-<!DOCTYPE html>
-<html lang="sv">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VeggieEats</title>
-    <!-- Preload the largest visible image. -->
-    <!-- <link rel="preload" as="video" fetchpriority="high" href="movie/pasta.mp4"> -->
+    <?php 
+    $pagetitel = "VeggieEats";
+    include("abtest/header.php");
+    ?>
 
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&family=Roboto:wght@300;400;500;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="/style.css">
-   
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
-
-</head>
-<body>
-    <header class="main-header">
-        <section class="container">
-            <a class="logo" href="/index.html">VeggieEats</a>
-            <nav class="main-nav">
-                <ul class="main-menu">
-                    <li class="main-menu-item">
-                        <a class="link" href="/recepie.html">Recept</a>
-                    </li>
-                    <li class="main-menu-item">
-                        <a class="link" href="/blogg.html">Tips</a>
-                    </li>
-                </ul>
-            </nav>
-        </section>
-    </header>
     <main>
         <h1>Integritetspolicy</h1>
     
