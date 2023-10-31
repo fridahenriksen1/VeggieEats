@@ -1,36 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="sv">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tips</title>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&family=Roboto:wght@300;400;500;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="style.css"> -->
-    <!-- oswald -->
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
-</head>
-
-<body>
-    <header class="main-header">
-        <div class="container">
-            <a class="logo" href="index.html">VeggieEats</a>
-            <div class="main-nav">
-                <ul class="main-menu">
-                    <li class="main-menu-item">
-                        <a class="link" href="recepie.html">Alla recept</a>
-                    </li>
-                    <li class="main-menu-item">
-                        <a class="link" href="blogg.html">Tips</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </header> -->
 
     <?php 
     $pagetitel = "detta är tips";
@@ -63,9 +30,9 @@
                         <p>Förbered vegetariska rätter i förväg och frys in dem i portioner. På så sätt har du alltid
                             något
                             att ta till när tiden är knapp.</p>
-                        <!-- <figure class="fig-tips">
+                        <figure class="fig-tips">
                             <img src="/img/schemalägg.jpg" alt="kalender i block">
-                        </figure> -->
+                        </figure>
 
                     </article>
                 </section>
@@ -88,8 +55,6 @@
                             <img src="/img/laga_mat_nununu.jpg"
                                 alt="två personer står vi ett bord och lagar mat. Man ser allt ovanifrån och ser abra personerans h'nder ch massa skålar med preppad mat i.">
                         </figure>
-
-
 
                     </article>
                 </section>
