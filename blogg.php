@@ -31,7 +31,13 @@
                             något
                             att ta till när tiden är knapp.</p>
                         <figure class="fig-tips">
-                            <img src="/img/schemalägg.jpg" alt="kalender i block">
+                            <img src="img/schemalägg-1200.webp" srcset="
+                            img/schemalägg-400.webp 400w,
+                            img/schemalägg-800.webp 800w,
+                            img/schemalägg-1200.webp 1200w
+                            " sizes="
+                            (max-width:800px) 100vw, 800px
+                            " alt="kalender i block">
                         </figure>
 
                     </article>
@@ -52,8 +58,13 @@
                             för
                             att hitta nya smaker och inspiration.</p>
                         <figure class="fig-tips">
-                            <img src="/img/laga_mat_nununu.jpg"
-                                alt="två personer står vi ett bord och lagar mat. Man ser allt ovanifrån och ser abra personerans h'nder ch massa skålar med preppad mat i.">
+                            <img src="img/laga_mat_nununu-1200.webp" srcset="
+                            img/laga_mat_nununu-400.webp 400w,
+                            img/laga_mat_nununu-800.webp 800w,
+                            img/laga_mat_nununu-1200.webp 1200w
+                            " sizes="
+                            (max-width:800px) 100vw, 800px
+                            " alt="två personer står vi ett bord och lagar mat. Man ser allt ovanifrån och ser abra personerans h'nder ch massa skålar med preppad mat i.">
                         </figure>
 
                     </article>
@@ -81,7 +92,13 @@
                             förlita
                             dig för mycket på dem. De kan vara höga i natrium och andra tillsatser.</p>
                         <figure class="fig-tips">
-                            <img src="/img/bonor_lincer.jpg" alt="bönor och lincer i olika skålar står i en cirkel">
+                            <img src="img/bonor_lincer-1200.webp" srcset="
+                            img/bonor_lincer-1200.webp 400w,
+                            img/bonor_lincer-1200.webp 800w,
+                            img/bonor_lincer-1200.webp 1200w
+                            " sizes="
+                            (max-width:800px) 100vw, 800px
+                            " alt="bönor och lincer i olika skålar står i en cirkel">
                         </figure>
 
                     </article>
@@ -98,7 +115,13 @@
                         <p>Använd olika kryddor och örter för att ge smak åt dina rätter. En välkryddad måltid kan vara
                             minst lika tillfredsställande som en kötträtt.</p>
                         <figure class="fig-tips">
-                            <img src="/img/kryddor_på_skedar.jpg" alt="fyra uppradade skedar med kryddor på">
+                            <img src="img/kryddor_på_skedar-1200.webp" srcset="
+                            img/kryddor_på_skedar-400.webp 400w,
+                            img/kryddor_på_skedar-800.webp 800w,
+                            img/kryddor_på_skedar-1200.webp 1200w
+                            " sizes="
+                            (max-width:800px) 100vw, 800px
+                            " alt="fyra uppradade skedar med kryddor på">
                         </figure>
 
                     </article>
@@ -118,7 +141,13 @@
                             mjölkprodukter,
                             och ägg om du är ovo-vegetarian.</p>
                         <figure class="fig-tips">
-                            <img src="/img/tofu-i-skal.jpg" alt="marinerad tofu i genomskinlig skål">
+                            <img src="img/tofu-i-skal-1200.webp" srcset="
+                            img/tofu-i-skal-400.webp 400w,
+                            img/tofu-i-skal-800.webp 800w,
+                            img/tofu-i-skal-1200.webp 1200w
+                            " sizes="
+                            (max-width:800px) 100vw, 800px
+                            " alt="marinerad tofu i genomskinlig skål">
                         </figure>
 
                     </article>
@@ -133,8 +162,13 @@
                         <p>Övergången till att äta mindre kött kan ta tid. Om du gör misstag eller återvänder till kött
                             ibland, var inte för hård mot dig själv. Varje steg räknas.</p>
                         <figure class="fig-tips">
-                            <img src="/img/tjekille_i_kök.jpg"
-                                alt="en kille och en tjeje står och laggar mat i kök, båda ser glada ut">
+                            <img src="img/tjekille_i_kök-1200.webp" srcset="
+                            img/tjekille_i_kök-1200.webp 400w,
+                            img/tjekille_i_kök-1200.webp 800w,
+                            img/tjekille_i_kök-1200.webp 1200w
+                            " sizes="
+                            (max-width:800px) 100vw, 800px
+                            " alt="en kille och en tjeje står och laggar mat i kök, båda ser glada ut">
                         </figure>
 
                     </article>
