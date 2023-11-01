@@ -17,6 +17,7 @@ fetch('../json/recept.json')
             let header = document.createElement('header');
             let h1 = document.createElement('h1');
             let p = document.createElement('p');
+            let cred = document.createElement('a');
             let h2G = document.createElement('h2');
             let h2I = document.createElement('h2');
             let section1 = document.createElement('section');
@@ -50,6 +51,7 @@ fetch('../json/recept.json')
             section4.classList.add('howToMake');
             buyIngredients.classList.add('class','buy-ingredients');
             p.classList.add('info-recipe')
+            cred.classList.add('cred-text');
             section1.classList.add('steps-container');
             section2.classList.add('steps-container', 'howToContainer');
             timeCategoty.classList.add('time-ingredients-container');
@@ -65,7 +67,9 @@ fetch('../json/recept.json')
             p.textContent = item.description;
             time.textContent = item.time;
             buyIngredients.textContent = `${amountIngredients} ingredienser`;
+            cred.href = `https://www.instagram.com/${item.credURL}/`;
 
+            cred.textContent = "Tryck här för att besöka Josefinesmat på Instagram, alla recept kommer därifrån!"; 
             h2G.textContent = 'Gör så här';
             h2I.textContent = 'Ingredienser';
             timeIcon.textContent = "schedule";
@@ -189,7 +193,7 @@ fetch('../json/recept.json')
             // timeCategoty.append(time,buyIngredients);
             timeCategoty.append(timebox, ingridentsBox);
            // section3.append(h1,figure, timebox)
-           section3.append(header,figure, timeCategoty,p);
+           section3.append(header,figure, timeCategoty,p,cred);
             section4.append(section1, section2);
 
             bigBox.append(section3,section4);
