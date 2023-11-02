@@ -70,7 +70,7 @@
                 </label>
                 <input type='search' id='header-search' placeholder="Sök recept" data-search>
                 <button type='submit' id="btn-search">
-                    <span class="material-symbols-rounded">search</span>
+                    <span class="material-symbols-outlined">search</span>
                     <span class='visually-hidden'>Submit Search</span>
                 </button>
             </form>
