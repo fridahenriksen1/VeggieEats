@@ -1,7 +1,7 @@
 
 <?php 
     $pagetitel = "detta är veggieets";
-    include("abtest/header.php");
+    include("header.php");
     ?>    
 
     <section id="hero" class="img-header">

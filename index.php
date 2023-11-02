@@ -6,7 +6,7 @@ include("inc/abtest.php");
 
     <?php 
     $pagetitel = "VeggieEats";
-    include("abtest/header.php");
+    include("header.php");
     ?>
 
     <section id="hero" class="img-header">
