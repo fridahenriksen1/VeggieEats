@@ -205,9 +205,6 @@ a {
 .recept .bigBox .howToMake .steps-container ul .checkBoxContainer {
   list-style-type: none;
 }
-.recept .bigBox .howToMake .steps-container ul .checkBoxContainer .steps-list-howTo {
-  background-color: #FFD9A0;
-}
 .recept .bigBox .howToMake .steps-container.howToContainer {
   margin-top: 5rem;
   padding-bottom: 3rem;
