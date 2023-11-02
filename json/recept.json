@@ -46,7 +46,7 @@
             "Stek Halloumi",
             "Toppa med parmesan och ceasardressing "
         ],
-        "html": "recept/halloumi_ceasersallad.html",
+        "html": "halloumi_ceasersallad.php",
         "time": "Cirka 20 min",
         "imageURL": "../img/hallomi-cesarsallad-1200.webp",
         "image400": "../img/hallomi-cesarsallad-400.webp",
@@ -118,7 +118,7 @@
             900,
             0
         ],
-        "html": "recept/spaghetti_bolognese.html",
+        "html": "spaghetti_bolognese.php",
         "time": "Under 30 min",
         "buyIngredients": "11 ingredienser",
         "imageURL": "../img/vodka-pasta-1200.webp",
@@ -178,7 +178,7 @@
             0,
             0
         ],
-        "html": "recept/halloumigryta_jordnotssas.html",
+        "html": "halloumigryta_jordnotssas.php",
         "time": "Under 30 min",
         "buyIngredients": "6 ingredienser",
         "imageURL": "../img/ica-hallomigryta-jordnösås-1200.webp",
@@ -248,7 +248,7 @@
             600,
             0
         ],
-        "html": "recept/pizza-bianco-sparris.html",
+        "html": "pizza-bianco-sparris.php",
         "time": "Under 30 min",
         "buyIngredients": "6 ingredienser",
         "imageURL": "../img/ica-pizza-blanco-sparris-1200.webp",
@@ -321,7 +321,7 @@
             600,
             0
         ],
-        "html": "recept/pasta_alfredo.html",
+        "html": "pasta_alfredo.php",
         "time": "30 min",
         "buyIngredients": "9 ingredienser",
         "imageURL": "../img/pasta-alfredo-1200.webp",
@@ -410,7 +410,7 @@
             900,
             0
         ],
-        "html": "recept/kantarellpasta.html",
+        "html": "kantarellpasta.php",
         "time": "30 min",
         "buyIngredients": "12 ingredienser",
         "imageURL": "../img/kantarellpasta-1200.webp",
@@ -488,7 +488,7 @@
             0,
             0
         ],
-        "html": "recept/stekt_ris.html",
+        "html": "stekt_ris.php",
         "time": "35 min",
         "buyIngredients": "10 ingredienser",
         "imageURL": "../img/stekt-ris-1200.webp",
@@ -580,7 +580,7 @@
             0,
             0
         ],
-        "html": "recept/kramig-halloumi-pestopasta.html",
+        "html": "kramig-halloumi-pestopasta.php",
         "time": "ca 30 min",
         "buyIngredients": "11 ingredienser",
         "imageURL": "../img/Krämig-kantarell-hallomipasta-1200.webp",
@@ -644,7 +644,7 @@
             0,
             0
         ],
-        "html": "recept/vegocurry-broccoli-hallomi.html",
+        "html": "vegocurry-broccoli-hallomi.php",
         "time": "under 30 min",
         "buyIngredients": "6 ingredienser",
         "imageURL": "../img/Vegocurry-broccoli-halloumi-1200.webp",
@@ -715,7 +715,7 @@
             600,
             0
         ],
-        "html": "recept/gron-couscous.html",
+        "html": "gron-couscous.php",
         "time": "under 30 min",
         "buyIngredients": "7 ingredienser",
         "imageURL": "../img/ica-gron-coscos-1200.webp",
@@ -781,7 +781,7 @@
             600,
             0
         ],
-        "html": "recept/snabb-couscous-bowl.html",
+        "html": "snabb-couscous-bowl.php",
         "time": "under 30 min",
         "buyIngredients": "7 ingredienser",
         "imageURL": "../img/ica-coscos-avocadoboal-1200.webp",
@@ -873,7 +873,7 @@
             600,
             0
         ],
-        "html": "recept/risotto-skogschampinjoner.html",
+        "html": "risotto-skogschampinjoner.php",
         "time": "under 45 min",
         "buyIngredients": "12 ingredienser",
         "imageURL": "../img/risotto-med-skogschampinjoner-1200.webp",
@@ -955,7 +955,7 @@
             600,
             0
         ],
-        "html": "recept/avokadosallad.html",
+        "html": "avokadosallad.php",
         "time": "under 30 min",
         "buyIngredients": "9 ingredienser",
         "imageURL": "../img/Skärmbild-avokadosalad-sparris-1200.webp",
@@ -1056,7 +1056,7 @@
             600,
             0
         ],
-        "html": "recept/onepotpasta-bonor.html",
+        "html": "onepotpasta-bonor.php",
         "time": "30 min",
         "buyIngredients": "14 ingredienser",
         "imageURL": "../img/one-pot-pasta-bonor-soltorkadetomater-1200.webp",
@@ -1153,7 +1153,7 @@
             600,
             0
         ],
-        "html": "recept/halloumi-stroganoff.html",
+        "html": "halloumi-stroganoff.php",
         "time": "20 min",
         "buyIngredients": "13 ingredienser",
         "imageURL": "../img/hallomi-stroganoff-1200.webp",
@@ -1229,7 +1229,7 @@
             600,
             0
         ],
-        "html": "recept/broccoligratang-pasta.html",
+        "html": "broccoligratang-pasta.php",
         "time": "30 min",
         "buyIngredients": "8 ingredienser",
         "imageURL": "../img/broccoligratang-pasta-1200.webp",
@@ -1291,7 +1291,7 @@
             600,
             0
         ],
-        "html": "recept/tortillapizza-brie.html",
+        "html": "tortillapizza-brie.php",
         "time": "ca 20 min",
         "buyIngredients": "6 ingredienser",
         "imageURL": "../img/Tortillapizza-brie-1200.webp",
@@ -1360,7 +1360,7 @@
             600,
             0
         ],
-        "html": "recept/halloumitallrik.html",
+        "html": "halloumitallrik.php",
         "time": "ca 20 min",
         "buyIngredients": "7 ingredienser",
         "imageURL": "../img/Halloumitallrik-ugnspotatis-1200.webp",
@@ -1444,7 +1444,7 @@
             600,
             0
         ],
-        "html": "recept/pankofriterade-fetaostbiffar.html",
+        "html": "pankofriterade-fetaostbiffar.php",
         "time": "ca 45 min",
         "buyIngredients": "10 ingredienser",
         "imageURL": "../img/pankofriterade-fetaostbiffar-1200.webp",
