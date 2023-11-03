@@ -666,8 +666,10 @@ img {
   background-size: var(--s) var(--s);
   border-radius: 1rem;
 }
-.quote h3 {
+.quote .quote-text {
   color: black;
+  background-color: #FAFAFA;
+  padding: 1rem;
   font-size: 1rem;
   margin-bottom: 1rem;
 }
