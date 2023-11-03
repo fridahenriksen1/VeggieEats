@@ -441,14 +441,7 @@ img {
 
 
 
-    .quote-text {
-        color: black;
-        background-color: #FAFAFA;
-        padding: 1rem;
-        font-size: 1rem;
-        margin-bottom: 1rem;
-        //display: flex;
-    }
+
 
     // .btn {
     //     background-color: blue;
@@ -456,6 +449,24 @@ img {
 
     .content {
         text-align: center;
+        // display: flex;
+        // flex-wrap: wrap;
+        // flex-direction: column;
+        // justify-content: center;
+        // align-items: center;
+
+        .quote-text {
+            color: black;
+            background-color: #FAFAFA;
+            padding: 1rem;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            max-width: 50%;
+            height: 100%;
+            //text-align: center;
+            //flex: 0 0 50%;
+            //display: flex;
+        }
     }
 }
 
