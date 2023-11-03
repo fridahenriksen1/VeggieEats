@@ -45,8 +45,8 @@
         </section>
         <aside class="quote">
             <article class="content">
-                <h3>Använd filtreringsverktyget om du vill ha inspiration efter vilken bas du vill jobba med</h3>
-                <a class="btn-primary" href="recepie.html">Till filtreringsvektyget</a>
+                <h3 class="quote-text">Använd filtreringsverktyget om du vill ha inspiration efter vilken bas du vill jobba med</h3>
+                <a class="btn-primary" href="recepie.php">Till filtreringsvektyget</a>
             </article>
         </aside>
         <section class="popular">
@@ -74,8 +74,8 @@
         </section>
         <aside class="quote">
             <article class="content">
-                <h3>Utforska våra råd för att minska köttintaget och främja en mer hållbar kost.</h3>
-                <a class="btn-primary" href="blogg.html">Till tips</a>
+                <h3 class="quote-text">Utforska våra råd för att minska köttintaget och främja en mer hållbar kost.</h3>
+                <a class="btn-primary" href="blogg.php">Till tips</a>
             </article>
         </aside>
         <section class="popular">
