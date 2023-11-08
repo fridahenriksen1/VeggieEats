@@ -18,6 +18,7 @@
         </section>
     </footer>
       <!-- Cookie Popup -->
+      <!-- hej -->
   <div id="cookie-popup" class="cookie-popup">
     <div class="popup-content">
         <span id="close-icon" class="close-icon">×</span>
