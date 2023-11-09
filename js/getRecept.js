@@ -93,7 +93,7 @@ fetch('../json/recept.json')
                 checkboxes.classList.add('checkBoxContainer');
 
                 let checkBoxLi =document.createElement('ul');
-                   
+                checkBoxLi.id = 'list';
                       //!Ta bort här
                 // let checkboxLabel = document.createElement('label'); // Create a label element
                 // let checkbox = document.createElement('input'); // Create an input element
