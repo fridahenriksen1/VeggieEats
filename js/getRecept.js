@@ -69,7 +69,7 @@ fetch('../json/recept.json')
             buyIngredients.textContent = `${amountIngredients} ingredienser`;
             cred.href = `https://www.instagram.com/${item.credURL}/`;
 
-            cred.textContent = "Tryck här för att besöka Josefinesmat på Instagram, alla recept kommer därifrån!"; 
+            cred.textContent = "Länk till orginalrecept"; 
             h2G.textContent = 'Gör så här';
             h2I.textContent = 'Ingredienser';
             timeIcon.textContent = "schedule";
