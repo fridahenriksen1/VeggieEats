@@ -2,6 +2,7 @@
     {
         "id": 1,
         "name": "Halloumi caesarsallad",
+        "source": "instagram",
         "category": "Sallad",
         "description": "Denna sallad är en explosion av smaker, med den salta halloumin, den krispiga salladen och den söta fruktiga smaken. Den passar utmärkt till sommarmiddagar eller när du bara vill ha något lätt och uppfriskande. Smaklig måltid!",
         "ingredients": [
@@ -57,6 +58,7 @@
     {
         "id": 2,
         "name": "Vodka pasta",
+        "source": "ica",
         "category": "Pasta",
         "description": "Vodkapasta är en krämig och smakrik pastarätt med en distinkt smak av vodka och chili. Den är en perfekt kombination av kryddig hetta och krämig gräddighet. Denna pastarätt är enkel att förbereda och passar både för vardagsmiddagar och speciella tillfällen!",
         "ingredients": [
@@ -125,11 +127,12 @@
         "image400": "../img/vodka-pasta-400.webp",
         "image800": "../img/vodka-pasta-800.webp",
         "altText": "Röd pasta penne som är färgad av tomat ligger på en grå brun tallrik. Pastan är toppad med parmesan och färsk basilika",
-        "credIca": "recept/vodkapasta-729011/"
+        "credURL": "recept/vodkapasta-729011/"
     },
     {
         "id": 3,
         "name": "Halloumigryta med jordnötssås",
+        "source": "ica",
         "category": "Ris",
         "description": "Här steks halloumin gyllenbrun, och serveras tillsammans med spenat som fått tillagas i en härlig thai satay curry, och passar utmärkt ihop med kokt ris. Vi önskar dig en enkel och smakrik vegomåltid!",
         "ingredients": [
@@ -185,11 +188,12 @@
         "image400": "../img/ica-hallomigryta-jordnösås-400.webp",
         "image800": "../img/ica-hallomigryta-jordnösås-800.webp",
         "altText": "Ljus bild på en djup skål med ris och hallomigryta. maten är inte blandad utan ligger som lager på varandra. Hallomigrytan är gul, i grytan ligger grönsaker och halva plompntommater syns tydligt.",
-        "credIca": ""
+        "credURL": "recept/halloumigryta-med-jordnotssas-725010/"
     },
     {
         "id": 4,
         "name": "Pizza bianco med sparris",
+        "source": "ica", 
         "category": "Pizza",
         "description": "Pizza bianco är en pizza utan tomatsås, här lakto- vegetarisk med crème fraiche som bas. Toppad med grön sparris och mâchesallad är detta en både vacker och riktigt läcker pizza med en lyxig känsla. Så gott!",
         "ingredients": [
@@ -255,11 +259,12 @@
         "image400": "../img/ica-pizza-blanco-sparris-400.webp",
         "image800": "../img/ica-pizza-blanco-sparris-800.webp",
         "altText": "Ljus bild på en pizza som ser rätt blek ut, brödet är lätt gräddat, på brödet ligger sparris och basilika.",
-        "credIca": ""
+        "credURL": "recept/pizza-bianco-med-sparris-725263/"
     },
     {
         "id": 5,
         "name": "Pasta Alfredo",
+        "source": "arla", 
         "category": "pasta",
         "description": "Pasta Alfredo är en klassisk italiensk pastarätt med smör, ost och grädde. Den går riktigt snabbt att laga och brukar uppskattas av alla! Den här pastarätten passar utmärkt till lunch eller när du behöver en snabblagad middag och är perfekt att fylla matlådan med. Om du vill ha mer protein kan du även lägga till kyckling, kalkon eller ett alternativ till kött, men det här är grundreceptet. Pasta Alfredo blir som godast när den serveras direkt.",
         "ingredients": [
@@ -328,11 +333,12 @@
         "image400": "../img/pasta-alfredo-400.webp",
         "image800": "../img/pasta-alfredo-800.webp",
         "altText": "På en svart tallrik ligger en kladdig pasta där gröna ärtor syns, pastan är tagliatelle.",
-        "credArla": ""
+        "credURL": "recept/pasta-alfredo/"
     },
     {
         "id": 6,
         "name": "Kantarellpasta",
+        "source": "arla", 
         "category": "pasta",
         "description": "Har du haft lyckan att hitta kantareller eller fanns det kanske att köpa i din butik? Hur du än fick tag på skogens guld passar de utmärkt i en gräddig pasta med vitt vin, vitlök, grädde, chili och persilja. Lite färskriven parmesan på toppen, sen är det bara att servera!",
         "ingredients": [
@@ -417,11 +423,12 @@
         "image400": "../img/kantarellpasta-400.webp",
         "image800": "../img/kantarellpasta-800.webp",
         "altText": "Ljus bild på en halvdjupskål med pasta regatoni, blandat i passtan syns kantareller, parmesan och persilja.",
-        "credArla": ""
+        "credURL": "recept/kantarellpasta/"
     },
     {
         "id": 7,
         "name": "Stekt ris",
+        "source": "arla", 
         "category": "Ris",
         "description": "Stekt ris med grönsaker och ägg är en lättlagad vardagsrätt. Ett utmärkt sätt att ta tillvara ris och grönsaker som blivit över. Äggen som blandas ner gör det stekta riset krämigt och dressingen med brynt smör, soja och lime ger rätten dess rätta karaktär.",
         "ingredients": [
@@ -495,11 +502,12 @@
         "image400": "../img/stekt-ris-400.webp",
         "image800": "../img/stekt-ris-800.webp",
         "altText": "I en djup skål synns risblandat med grönsaker, toppad med koriander och en fjärdedels lime. Över skålen ligger ett par matpinnar.",
-        "credArla": ""
+        "credURL": "recept/stekt-ris/"
     },
     {
         "id": 8,
         "name": "Krämig halloumi- pestopasta med sparris",
+        "source": "instagram", 
         "category": "pasta",
         "description": "Snabb och krämig halloumi- pestopasta med sparris. Gott och enkelt att göra! Den blir så krämig och god.",
         "ingredients": [
@@ -587,11 +595,12 @@
         "image400": "../img/Krämig-kantarell-hallomipasta-400.webp",
         "image800": "../img/Krämig-kantarell-hallomipasta-800.webp",
         "altText": "I en panna syns pasta fysilli. Bilden är rörig och det ger en känsla av att mattlagningen är pågående men väldogt nära klar. I pastan syns kantareller, hallomi, ost och pinjenötter.",
-        "credURL": "josefinesmat"
+        "credURL": "p/Cv7RPK6uRr_/"
     },
     {
         "id": 9,
         "name": "Vegocurry med broccoli och halloumi",
+        "source": "ica",
         "category": "Nudlar",
         "description": "En indiskdoftande curry står på kvällens meny, med crunchy broccoli och mjuk halloumi. Till det serveras äggnudlar. Mums!",
         "ingredients": [
@@ -651,11 +660,12 @@
         "image400": "../img/Vegocurry-broccoli-halloumi-400.webp",
         "image800": "../img/Vegocurry-broccoli-halloumi-800.webp",
         "altText": "I en djup skål ligger nudlar blandat med hallomigryta. Färgen är ljusbryn, i grytan syns brocoli. Över skålen ligger ett par matpinnar. ",
-        "credIca": ""
+        "credURL": "recept/vegocurry-med-broccoli-och-halloumi-729335/"
     },
     {
         "id": 10,
         "name": "Grön couscous",
+        "source": "ica", 
         "category": "couscous",
         "description": "Denna gröna couscous är ett nyttigt tillbehör till grillfesten. Den har underbar smak och går snabbt att laga. Couscousen blir vackert grön när du mixar den med spenat och persilja. Servera med en sval vitlöksyoghurt.",
         "ingredients": [
@@ -722,11 +732,12 @@
         "image400": "../img/ica-gron-coscos-400.webp",
         "image800": "../img/ica-gron-coscos-800.webp",
         "altText": "I förgrunden synns en skål med grön coscos. I den gröna blandningen syns tomater. I bakrunden syns en skål med vit sås som inehåll, skålen är suddig.",
-        "credIca": ""
+        "credURL": "recept/gron-couscous-720102/"
     },
     {
         "id": 11,
         "name": "Snabb couscous bowl med ägg och avokado",
+        "source": "ica",
         "category": "couscous",
         "description": "Couscous bowl är en rekordsnabb middag eller lunch med bara 4 ingredienser! Kokt couscous tillsammans med stekt ägg, avokado och sriracha är en vinnande kombo. Örter sätter smak och gör måltiden komplett.",
         "ingredients": [
@@ -788,11 +799,12 @@
         "image400": "../img/ica-coscos-avocadoboal-400.webp",
         "image800": "../img/ica-coscos-avocadoboal-800.webp",
         "altText": "I en ljusbrun skål syns skurren avocado och ett stekt ägg. Dessa är toppade med sriracham och trimmlade örter. ",
-        "credIca": ""
+        "credURL": "recept/snabb-couscous-bowl-med-agg-och-avokado-726745/"
     },
     {
         "id": 12,
         "name": "Risotto med skogschampinjoner",
+        "source": "ica",  
         "category": "Ris",
         "description": "En perfekt kokt risotto är krämig och riset har kvar lite tuggmotstånd. Följ det här grundreceptet på svamprisotto och du har alla chanser att lyckas. Kastanjechampinjonerna i risotton går utmärkt att byta ut mot andra goda svampar som kantareller, karljohansvamp eller portabello till en ännu lyxigare festrätt.",
         "ingredients": [
@@ -880,11 +892,12 @@
         "image400": "../img/risotto-med-skogschampinjoner-400.webp",
         "image800": "../img/risotto-med-skogschampinjoner-800.webp",
         "altText": "I en halvdjupskål syns en kladdig risotto toppad med rucola. I risotton ligger en gafffel med brunt skafft. ",
-        "credIca": ""
+        "credURL": "recept/risotto-med-skogschampinjoner-716952/"
     },
     {
         "id": 13,
         "name": "Avokadosallad med råhyvlad sparris och pinjenötter",
+        "source": "ica", 
         "category": "Sallad",
         "description": "En somrig sallad som kan njutas som både en komplett rätt eller som tillbehör. Smaken från de rostade pinjenötterna och hyvlad Västerbottensost tillför ytterligare en dimension. Kan även serveras ljummen, genom att koka färsk potatis, riva Västerbottensost över och vända ner i salladen.",
         "ingredients": [
@@ -962,11 +975,12 @@
         "image400": "../img/Skärmbild-avokadosalad-sparris-400.webp",
         "image800": "../img/Skärmbild-avokadosalad-sparris-800.webp",
         "altText": "På en svart tallrik syns en blandad sallad, i salladen synns avocado, pinjenötter, sparris och bönor. En hand håller i tallriken och en annan hand ser ut att blanda runt salladen.  ",
-        "credIca": ""
+        "credURL": "recept/avokadosallad-med-rahyvlad-sparris-och-pinjenotter-719039/"
     },
     {
         "id": 14,
         "name": "One pot pasta med bönor och soltorkade tomater",
+        "source": "arla",
         "category": "Pasta",
         "description": "Slipp onödig disk och få en extra krämig pastarätt genom att laga pastan och såsen i en och samma gryta. Pastan får protein från bönor och god smak av soltorkade tomater och rivet citronskal.",
         "ingredients": [
@@ -1063,11 +1077,12 @@
         "image400": "../img/one-pot-pasta-bonor-soltorkadetomater-400.webp",
         "image800": "../img/one-pot-pasta-bonor-soltorkadetomater-800.webp",
         "altText": "I en stor gryta ligger en pastasås, pastan är penne, såsen är rödbrun. Röran är toppad med färsk basilika. I grytan ligger en stor slev. ",
-        "credArla": "recept/vegopasta-med-bonor-och-soltorkad-tomat/"
+        "credURL": "recept/vegopasta-med-bonor-och-soltorkad-tomat/"
     },
     {
         "id": 15,
         "name": "Halloumi Stroganoff",
+        "source": "arla",  
         "category": "Ris",
         "description": "Halloumi Stroganoff - vardagsfavoriten Stroganoff med ost istället! Den här vegetariska rätten passar utmärkt som vardagsmiddag och går snabbt att göra. Får du rester över går de fint att frysa in eller att ha som lunchlåda dagen efter. Servera halloumi Stroganoff med ris och sockerärtor.",
         "ingredients": [
@@ -1160,11 +1175,12 @@
         "image400": "../img/hallomi-stroganoff-400.webp",
         "image800": "../img/hallomi-stroganoff-800.webp",
         "altText": "I en panna ligger en röd röra, i rörran kan hallomiskivor skymtas. Brevis pannan nästan utanför bilden syns en skål fylld med ris.",
-        "credArla": ""
+        "credURL": "recept/halloumi-stroganoff/"
     },
     {
         "id": 16,
         "name": "Broccoligratäng med pasta",
+        "source": "arla",
         "category": "Pasta",
         "description": "Broccoligratäng med pasta och ädelost är en jättegod kombination. Om du gillar hetta i maten kan du med fördel lägga till 1 tsk chili flakes i äggstanningen. Servera gärna denna vegetariska pastagratäng med en blandad grönsallad.",
         "ingredients": [
@@ -1236,11 +1252,12 @@
         "image400": "../img/broccoligratang-pasta-400.webp",
         "image800": "../img/broccoligratang-pasta-800.webp",
         "altText": "I en vit form ligger en pasta balndning. Pastan är penne och i blandningen ligger broccoli. Maten har tillagats i ugnen, det synns då pennen på vissa ställe fått en brun färg. ",
-        "credArla": ""
+        "credURL": "recept/broccoligratang-med-pasta/"
     },
     {
         "id": 17,
         "name": "Tortillapizza med brie",
+        "source": "instagram",
         "category": "Tortilla",
         "description": "Vill ni göra ett smarrigt och enkelt tilltugg ska du definitivt testa dessa, blev över all förväntan! Brie på tub är så smidigt för sommarens alla tilltugg",
         "ingredients": [
@@ -1298,11 +1315,12 @@
         "image400": "../img/Tortillapizza-brie-400.webp",
         "image800": "../img/Tortillapizza-brie-800.webp",
         "altText": "På en tallrik ligger en blek pizza med pinjenötter och rödlök. Pizzan är delad. ",
-        "credURL": "josefinesmat"
+        "credURL": "p/CtuPuXUoeNO/"
     },
     {
         "id": 18,
         "name": "Halloumitallrik",
+        "source": "instagram", 
         "category": "Potatis",
         "description": "En tallrik som man kanske inte skulle bli så bra som den faktiskt blir, testa och se vad du tycker!",
         "ingredients": [
@@ -1367,11 +1385,12 @@
         "image400": "../img/Halloumitallrik-ugnspotatis-400.webp",
         "image800": "../img/Halloumitallrik-ugnspotatis-800.webp",
         "altText": "På en ljus tallrik med textur på kanterna ligger hen blandning med hallomi, potatis och grönsaker.",
-        "credURL": "josefinesmat"
+        "credURL": "p/Csll7FMMSdi/?img_index=1"
     },
     {
         "id": 19,
         "name": "Pankofriterade fetaostbiffar",
+        "source": "instagram", 
         "category": "Potatis",
         "description": "Detta är helt sjukt gott! Går att göra til olika tillbehör. De är så enkla att göra",
         "ingredients": [
@@ -1451,6 +1470,6 @@
         "image400": "../img/pankofriterade-fetaostbiffar-400.webp",
         "image800": "../img/pankofriterade-fetaostbiffar-800.webp",
         "altText": "På en blå tallrik syns pankobiffarna, ungspotatis, en rosa sås och en mindre salladsblandning. ",
-        "credURL": "josefinesmat"
+        "credURL": "p/CrYRT9Es52L/?img_index=1"
     }
 ]
