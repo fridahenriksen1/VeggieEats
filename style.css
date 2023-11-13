@@ -165,13 +165,16 @@ a {
     max-width: 470px;
   }
 }
-.recept .bigBox .section3 .cred-text {
+.recept .bigBox .section3 .cred-instagram {
+  text-decoration: underline;
   margin-left: 1rem;
 }
-.recept .bigBox .section3 .credIca-text {
+.recept .bigBox .section3 .cred-ica {
+  text-decoration: underline;
   margin-left: 1rem;
 }
-.recept .bigBox .section3 .credArla-text {
+.recept .bigBox .section3 .cred-arla {
+  text-decoration: underline;
   margin-left: 1rem;
 }
 @media (min-width: 960px) {
