@@ -212,7 +212,7 @@ fetch('../json/recept.json')
             // timeCategoty.append(time,buyIngredients);
             timeCategoty.append(timebox, ingridentsBox);
            // section3.append(h1,figure, timebox)
-           section3.append(header,figure, timeCategoty,p,cred);
+           section3.append(header,figure, timeCategoty,p,cred,credIca,credArla);
             section4.append(section1, section2);
 
             bigBox.append(section3,section4);
