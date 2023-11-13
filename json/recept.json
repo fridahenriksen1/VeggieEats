@@ -132,6 +132,7 @@
     {
         "id": 3,
         "name": "Halloumigryta med jordnötssås",
+        "source": "ica",
         "category": "Ris",
         "description": "Här steks halloumin gyllenbrun, och serveras tillsammans med spenat som fått tillagas i en härlig thai satay curry, och passar utmärkt ihop med kokt ris. Vi önskar dig en enkel och smakrik vegomåltid!",
         "ingredients": [
@@ -192,6 +193,7 @@
     {
         "id": 4,
         "name": "Pizza bianco med sparris",
+        "source": "ica", 
         "category": "Pizza",
         "description": "Pizza bianco är en pizza utan tomatsås, här lakto- vegetarisk med crème fraiche som bas. Toppad med grön sparris och mâchesallad är detta en både vacker och riktigt läcker pizza med en lyxig känsla. Så gott!",
         "ingredients": [
@@ -262,6 +264,7 @@
     {
         "id": 5,
         "name": "Pasta Alfredo",
+        "source": "arla", 
         "category": "pasta",
         "description": "Pasta Alfredo är en klassisk italiensk pastarätt med smör, ost och grädde. Den går riktigt snabbt att laga och brukar uppskattas av alla! Den här pastarätten passar utmärkt till lunch eller när du behöver en snabblagad middag och är perfekt att fylla matlådan med. Om du vill ha mer protein kan du även lägga till kyckling, kalkon eller ett alternativ till kött, men det här är grundreceptet. Pasta Alfredo blir som godast när den serveras direkt.",
         "ingredients": [
@@ -335,6 +338,7 @@
     {
         "id": 6,
         "name": "Kantarellpasta",
+        "source": "arla", 
         "category": "pasta",
         "description": "Har du haft lyckan att hitta kantareller eller fanns det kanske att köpa i din butik? Hur du än fick tag på skogens guld passar de utmärkt i en gräddig pasta med vitt vin, vitlök, grädde, chili och persilja. Lite färskriven parmesan på toppen, sen är det bara att servera!",
         "ingredients": [
@@ -424,6 +428,7 @@
     {
         "id": 7,
         "name": "Stekt ris",
+        "source": "arla", 
         "category": "Ris",
         "description": "Stekt ris med grönsaker och ägg är en lättlagad vardagsrätt. Ett utmärkt sätt att ta tillvara ris och grönsaker som blivit över. Äggen som blandas ner gör det stekta riset krämigt och dressingen med brynt smör, soja och lime ger rätten dess rätta karaktär.",
         "ingredients": [
@@ -502,6 +507,7 @@
     {
         "id": 8,
         "name": "Krämig halloumi- pestopasta med sparris",
+        "source": "instagram", 
         "category": "pasta",
         "description": "Snabb och krämig halloumi- pestopasta med sparris. Gott och enkelt att göra! Den blir så krämig och god.",
         "ingredients": [
@@ -594,6 +600,7 @@
     {
         "id": 9,
         "name": "Vegocurry med broccoli och halloumi",
+        "source": "ica",
         "category": "Nudlar",
         "description": "En indiskdoftande curry står på kvällens meny, med crunchy broccoli och mjuk halloumi. Till det serveras äggnudlar. Mums!",
         "ingredients": [
@@ -658,6 +665,7 @@
     {
         "id": 10,
         "name": "Grön couscous",
+        "source": "ica", 
         "category": "couscous",
         "description": "Denna gröna couscous är ett nyttigt tillbehör till grillfesten. Den har underbar smak och går snabbt att laga. Couscousen blir vackert grön när du mixar den med spenat och persilja. Servera med en sval vitlöksyoghurt.",
         "ingredients": [
@@ -729,6 +737,7 @@
     {
         "id": 11,
         "name": "Snabb couscous bowl med ägg och avokado",
+        "source": "ica",
         "category": "couscous",
         "description": "Couscous bowl är en rekordsnabb middag eller lunch med bara 4 ingredienser! Kokt couscous tillsammans med stekt ägg, avokado och sriracha är en vinnande kombo. Örter sätter smak och gör måltiden komplett.",
         "ingredients": [
@@ -795,6 +804,7 @@
     {
         "id": 12,
         "name": "Risotto med skogschampinjoner",
+        "source": "ica",  
         "category": "Ris",
         "description": "En perfekt kokt risotto är krämig och riset har kvar lite tuggmotstånd. Följ det här grundreceptet på svamprisotto och du har alla chanser att lyckas. Kastanjechampinjonerna i risotton går utmärkt att byta ut mot andra goda svampar som kantareller, karljohansvamp eller portabello till en ännu lyxigare festrätt.",
         "ingredients": [
@@ -887,6 +897,7 @@
     {
         "id": 13,
         "name": "Avokadosallad med råhyvlad sparris och pinjenötter",
+        "source": "ica", 
         "category": "Sallad",
         "description": "En somrig sallad som kan njutas som både en komplett rätt eller som tillbehör. Smaken från de rostade pinjenötterna och hyvlad Västerbottensost tillför ytterligare en dimension. Kan även serveras ljummen, genom att koka färsk potatis, riva Västerbottensost över och vända ner i salladen.",
         "ingredients": [
@@ -969,6 +980,7 @@
     {
         "id": 14,
         "name": "One pot pasta med bönor och soltorkade tomater",
+        "source": "arla",
         "category": "Pasta",
         "description": "Slipp onödig disk och få en extra krämig pastarätt genom att laga pastan och såsen i en och samma gryta. Pastan får protein från bönor och god smak av soltorkade tomater och rivet citronskal.",
         "ingredients": [
@@ -1070,6 +1082,7 @@
     {
         "id": 15,
         "name": "Halloumi Stroganoff",
+        "source": "arla",  
         "category": "Ris",
         "description": "Halloumi Stroganoff - vardagsfavoriten Stroganoff med ost istället! Den här vegetariska rätten passar utmärkt som vardagsmiddag och går snabbt att göra. Får du rester över går de fint att frysa in eller att ha som lunchlåda dagen efter. Servera halloumi Stroganoff med ris och sockerärtor.",
         "ingredients": [
@@ -1167,6 +1180,7 @@
     {
         "id": 16,
         "name": "Broccoligratäng med pasta",
+        "source": "arla",
         "category": "Pasta",
         "description": "Broccoligratäng med pasta och ädelost är en jättegod kombination. Om du gillar hetta i maten kan du med fördel lägga till 1 tsk chili flakes i äggstanningen. Servera gärna denna vegetariska pastagratäng med en blandad grönsallad.",
         "ingredients": [
@@ -1243,6 +1257,7 @@
     {
         "id": 17,
         "name": "Tortillapizza med brie",
+        "source": "instagram",
         "category": "Tortilla",
         "description": "Vill ni göra ett smarrigt och enkelt tilltugg ska du definitivt testa dessa, blev över all förväntan! Brie på tub är så smidigt för sommarens alla tilltugg",
         "ingredients": [
@@ -1305,6 +1320,7 @@
     {
         "id": 18,
         "name": "Halloumitallrik",
+        "source": "instagram", 
         "category": "Potatis",
         "description": "En tallrik som man kanske inte skulle bli så bra som den faktiskt blir, testa och se vad du tycker!",
         "ingredients": [
@@ -1374,6 +1390,7 @@
     {
         "id": 19,
         "name": "Pankofriterade fetaostbiffar",
+        "source": "instagram", 
         "category": "Potatis",
         "description": "Detta är helt sjukt gott! Går att göra til olika tillbehör. De är så enkla att göra",
         "ingredients": [
