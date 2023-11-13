@@ -53,19 +53,19 @@ fetch('../json/recept.json')
                 case 'instagram':
                     cred.classList.add('cred-instagram');
                     cred.href = `https://www.instagram.com/${item.credURL}/`;
-                    cred.textContent = "Länk till Instagram";
+                    cred.textContent = "Länk till orginalreceptet, Instagram";
                     break;
 
                 case 'ica':
                     cred.classList.add('cred-ica');
                     cred.href = `https://www.ica.se/${item.credURL}/`;
-                    cred.textContent = "Länk till ICA";
+                    cred.textContent = "Länk till orginalreceptet, ICA";
                     break;
 
                 case 'arla':
                     cred.classList.add('cred-arla');
                     cred.href = `https://www.arla.se/${item.credURL}/`;
-                    cred.textContent = "Länk till Arla";
+                    cred.textContent = "Länk till orginalreceptet, Arla";
                     break;
 
                 default:
@@ -87,7 +87,7 @@ fetch('../json/recept.json')
             buyIngredients.classList.add('class','buy-ingredients');
             p.classList.add('info-recipe')
             //! class till josefinesmat instagram
-            cred.classList.add('cred-text');
+           // cred.classList.add('cred-text');
               //! class till ICA:s cred
             //   credIca.classList.add('credIca-text');
               //! class till Arla:s cred
