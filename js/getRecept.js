@@ -18,11 +18,11 @@ fetch('../json/recept.json')
             let h1 = document.createElement('h1');
             let p = document.createElement('p');
             //!Cred variabel till josefines mat
-            let cred = document.createElement('a');
+            // let cred = document.createElement('a');
               //!Cred variabel till ICA
-              let credIca = document.createElement ('a');
+            //   let credIca = document.createElement ('a');
               //!Cred variabel till Arla
-              let credArla = document.createElement ('a');
+            //   let credArla = document.createElement ('a');
             let h2G = document.createElement('h2');
             let h2I = document.createElement('h2');
             let section1 = document.createElement('section');
@@ -46,6 +46,36 @@ fetch('../json/recept.json')
              let section3 = document.createElement('div');
 
 
+
+             let cred = document.createElement('a');
+
+              switch (item.source) {
+                case 'instagram':
+                    cred.classList.add('cred-instagram');
+                    cred.href = `https://www.instagram.com/${item.credURL}/`;
+                    cred.textContent = "Länk till Instagram";
+                    break;
+
+                case 'ica':
+                    cred.classList.add('cred-ica');
+                    cred.href = `https://www.ica.se/${item.credURL}/`;
+                    cred.textContent = "Länk till ICA";
+                    break;
+
+                case 'arla':
+                    cred.classList.add('cred-arla');
+                    cred.href = `https://www.arla.se/${item.credURL}/`;
+                    cred.textContent = "Länk till Arla";
+                    break;
+
+                default:
+                    cred.classList.add('cred-default');
+                    cred.href = "#";
+                    cred.textContent = "Länk till orginalrecept";
+                    break;
+                }
+
+
             //! CLASSES
 
             timebox.classList.add('time-box');
@@ -59,9 +89,9 @@ fetch('../json/recept.json')
             //! class till josefinesmat instagram
             cred.classList.add('cred-text');
               //! class till ICA:s cred
-              credIca.classList.add('credIca-text');
+            //   credIca.classList.add('credIca-text');
               //! class till Arla:s cred
-              credArla.classList.add('credArla-text');
+            //   credArla.classList.add('credArla-text');
             section1.classList.add('steps-container');
             section2.classList.add('steps-container', 'howToContainer');
             timeCategoty.classList.add('time-ingredients-container');
@@ -78,17 +108,17 @@ fetch('../json/recept.json')
             time.textContent = item.time;
             buyIngredients.textContent = `${amountIngredients} ingredienser`;
             //! Länken till josefinesmat på instagram
-            cred.href = `https://www.instagram.com/${item.credURL}/`;
+            // cred.href = `https://www.instagram.com/${item.credURL}/`;
              //! Länken till ICA:s sida
-             credIca.href = `https://www.ica.se/${item.credIca}/`;
+            //  credIca.href = `https://www.ica.se/${item.credIca}/`;
 
              //! Länken till Arla:s sida
-             credArla.href = `https://www.arla.se/${item.credArla}/`;
+            //  credArla.href = `https://www.arla.se/${item.credArla}/`;
 
             //! Vad som ska stå på länken först till joesefinesmat, sen ICA och sen Arla
-            cred.textContent = "Länk till orginalrecept"; 
-            credIca.textContent = "Länk till orginalrecept"; 
-            credArla.textContent = "Länk till orginalrecept"; 
+            // cred.textContent = "Länk till orginalrecept"; 
+            // credIca.textContent = "Länk till orginalrecept"; 
+            // credArla.textContent = "Länk till orginalrecept"; 
             h2G.textContent = 'Gör så här';
             h2I.textContent = 'Ingredienser';
             timeIcon.textContent = "schedule";
@@ -207,7 +237,6 @@ fetch('../json/recept.json')
            
 
             // checkBoxLi.append(checkboxes);
-
 
             // timeCategoty.append(time,buyIngredients);
             timeCategoty.append(timebox, ingridentsBox);

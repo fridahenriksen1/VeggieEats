@@ -2,6 +2,7 @@
     {
         "id": 1,
         "name": "Halloumi caesarsallad",
+        "source": "instagram",
         "category": "Sallad",
         "description": "Denna sallad är en explosion av smaker, med den salta halloumin, den krispiga salladen och den söta fruktiga smaken. Den passar utmärkt till sommarmiddagar eller när du bara vill ha något lätt och uppfriskande. Smaklig måltid!",
         "ingredients": [
@@ -57,6 +58,7 @@
     {
         "id": 2,
         "name": "Vodka pasta",
+        "source": "ica",
         "category": "Pasta",
         "description": "Vodkapasta är en krämig och smakrik pastarätt med en distinkt smak av vodka och chili. Den är en perfekt kombination av kryddig hetta och krämig gräddighet. Denna pastarätt är enkel att förbereda och passar både för vardagsmiddagar och speciella tillfällen!",
         "ingredients": [
@@ -125,7 +127,7 @@
         "image400": "../img/vodka-pasta-400.webp",
         "image800": "../img/vodka-pasta-800.webp",
         "altText": "Röd pasta penne som är färgad av tomat ligger på en grå brun tallrik. Pastan är toppad med parmesan och färsk basilika",
-        "credIca": "recept/vodkapasta-729011/"
+        "credURL": "recept/vodkapasta-729011/"
     },
     {
         "id": 3,
