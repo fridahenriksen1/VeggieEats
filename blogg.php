@@ -193,7 +193,7 @@
         </section>
     </footer>
       <!-- Cookie Popup -->
-  <div id="cookie-popup" class="cookie-popup">
+      <div id="cookie-popup" class="cookie-popup">
     <div class="popup-content">
         <span id="close-icon" class="close-icon">×</span>
         <h2>Vi använder kakor</h2>
@@ -214,6 +214,7 @@
     </div>
     <!-- <script src="js/chatgpt.js"></script> -->
     <script src="js/script.js"></script>
+    <script src="../cookie-consent/cookie-consent.js"></script>
 </body>
 
 </html>
