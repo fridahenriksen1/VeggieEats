@@ -188,7 +188,7 @@
         "image400": "../img/ica-hallomigryta-jordnösås-400.webp",
         "image800": "../img/ica-hallomigryta-jordnösås-800.webp",
         "altText": "Ljus bild på en djup skål med ris och hallomigryta. maten är inte blandad utan ligger som lager på varandra. Hallomigrytan är gul, i grytan ligger grönsaker och halva plompntommater syns tydligt.",
-        "credURL": ""
+        "credURL": "recept/halloumigryta-med-jordnotssas-725010/"
     },
     {
         "id": 4,
@@ -259,7 +259,7 @@
         "image400": "../img/ica-pizza-blanco-sparris-400.webp",
         "image800": "../img/ica-pizza-blanco-sparris-800.webp",
         "altText": "Ljus bild på en pizza som ser rätt blek ut, brödet är lätt gräddat, på brödet ligger sparris och basilika.",
-        "credURL": ""
+        "credURL": "recept/pizza-bianco-med-sparris-725263/"
     },
     {
         "id": 5,
@@ -333,7 +333,7 @@
         "image400": "../img/pasta-alfredo-400.webp",
         "image800": "../img/pasta-alfredo-800.webp",
         "altText": "På en svart tallrik ligger en kladdig pasta där gröna ärtor syns, pastan är tagliatelle.",
-        "credURL": ""
+        "credURL": "recept/pasta-alfredo/"
     },
     {
         "id": 6,
@@ -423,7 +423,7 @@
         "image400": "../img/kantarellpasta-400.webp",
         "image800": "../img/kantarellpasta-800.webp",
         "altText": "Ljus bild på en halvdjupskål med pasta regatoni, blandat i passtan syns kantareller, parmesan och persilja.",
-        "credURL": ""
+        "credURL": "recept/kantarellpasta/"
     },
     {
         "id": 7,
@@ -502,7 +502,7 @@
         "image400": "../img/stekt-ris-400.webp",
         "image800": "../img/stekt-ris-800.webp",
         "altText": "I en djup skål synns risblandat med grönsaker, toppad med koriander och en fjärdedels lime. Över skålen ligger ett par matpinnar.",
-        "credURL": ""
+        "credURL": "recept/stekt-ris/"
     },
     {
         "id": 8,
@@ -595,7 +595,7 @@
         "image400": "../img/Krämig-kantarell-hallomipasta-400.webp",
         "image800": "../img/Krämig-kantarell-hallomipasta-800.webp",
         "altText": "I en panna syns pasta fysilli. Bilden är rörig och det ger en känsla av att mattlagningen är pågående men väldogt nära klar. I pastan syns kantareller, hallomi, ost och pinjenötter.",
-        "credURL": "josefinesmat"
+        "credURL": "p/Cv7RPK6uRr_/"
     },
     {
         "id": 9,
@@ -660,7 +660,7 @@
         "image400": "../img/Vegocurry-broccoli-halloumi-400.webp",
         "image800": "../img/Vegocurry-broccoli-halloumi-800.webp",
         "altText": "I en djup skål ligger nudlar blandat med hallomigryta. Färgen är ljusbryn, i grytan syns brocoli. Över skålen ligger ett par matpinnar. ",
-        "credURL": ""
+        "credURL": "recept/vegocurry-med-broccoli-och-halloumi-729335/"
     },
     {
         "id": 10,
@@ -732,7 +732,7 @@
         "image400": "../img/ica-gron-coscos-400.webp",
         "image800": "../img/ica-gron-coscos-800.webp",
         "altText": "I förgrunden synns en skål med grön coscos. I den gröna blandningen syns tomater. I bakrunden syns en skål med vit sås som inehåll, skålen är suddig.",
-        "credURL": ""
+        "credURL": "recept/gron-couscous-720102/"
     },
     {
         "id": 11,
@@ -799,7 +799,7 @@
         "image400": "../img/ica-coscos-avocadoboal-400.webp",
         "image800": "../img/ica-coscos-avocadoboal-800.webp",
         "altText": "I en ljusbrun skål syns skurren avocado och ett stekt ägg. Dessa är toppade med sriracham och trimmlade örter. ",
-        "credURL": ""
+        "credURL": "recept/snabb-couscous-bowl-med-agg-och-avokado-726745/"
     },
     {
         "id": 12,
@@ -892,7 +892,7 @@
         "image400": "../img/risotto-med-skogschampinjoner-400.webp",
         "image800": "../img/risotto-med-skogschampinjoner-800.webp",
         "altText": "I en halvdjupskål syns en kladdig risotto toppad med rucola. I risotton ligger en gafffel med brunt skafft. ",
-        "credURL": ""
+        "credURL": "recept/risotto-med-skogschampinjoner-716952/"
     },
     {
         "id": 13,
@@ -975,7 +975,7 @@
         "image400": "../img/Skärmbild-avokadosalad-sparris-400.webp",
         "image800": "../img/Skärmbild-avokadosalad-sparris-800.webp",
         "altText": "På en svart tallrik syns en blandad sallad, i salladen synns avocado, pinjenötter, sparris och bönor. En hand håller i tallriken och en annan hand ser ut att blanda runt salladen.  ",
-        "credURL": ""
+        "credURL": "recept/avokadosallad-med-rahyvlad-sparris-och-pinjenotter-719039/"
     },
     {
         "id": 14,
@@ -1175,7 +1175,7 @@
         "image400": "../img/hallomi-stroganoff-400.webp",
         "image800": "../img/hallomi-stroganoff-800.webp",
         "altText": "I en panna ligger en röd röra, i rörran kan hallomiskivor skymtas. Brevis pannan nästan utanför bilden syns en skål fylld med ris.",
-        "credURL": ""
+        "credURL": "recept/halloumi-stroganoff/"
     },
     {
         "id": 16,
@@ -1252,7 +1252,7 @@
         "image400": "../img/broccoligratang-pasta-400.webp",
         "image800": "../img/broccoligratang-pasta-800.webp",
         "altText": "I en vit form ligger en pasta balndning. Pastan är penne och i blandningen ligger broccoli. Maten har tillagats i ugnen, det synns då pennen på vissa ställe fått en brun färg. ",
-        "credURL": ""
+        "credURL": "recept/broccoligratang-med-pasta/"
     },
     {
         "id": 17,
@@ -1315,7 +1315,7 @@
         "image400": "../img/Tortillapizza-brie-400.webp",
         "image800": "../img/Tortillapizza-brie-800.webp",
         "altText": "På en tallrik ligger en blek pizza med pinjenötter och rödlök. Pizzan är delad. ",
-        "credURL": "josefinesmat"
+        "credURL": "p/CtuPuXUoeNO/"
     },
     {
         "id": 18,
@@ -1385,7 +1385,7 @@
         "image400": "../img/Halloumitallrik-ugnspotatis-400.webp",
         "image800": "../img/Halloumitallrik-ugnspotatis-800.webp",
         "altText": "På en ljus tallrik med textur på kanterna ligger hen blandning med hallomi, potatis och grönsaker.",
-        "credURL": "josefinesmat"
+        "credURL": "p/Csll7FMMSdi/?img_index=1"
     },
     {
         "id": 19,
@@ -1470,6 +1470,6 @@
         "image400": "../img/pankofriterade-fetaostbiffar-400.webp",
         "image800": "../img/pankofriterade-fetaostbiffar-800.webp",
         "altText": "På en blå tallrik syns pankobiffarna, ungspotatis, en rosa sås och en mindre salladsblandning. ",
-        "credURL": "josefinesmat"
+        "credURL": "p/CrYRT9Es52L/?img_index=1"
     }
 ]
