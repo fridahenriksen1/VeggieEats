@@ -317,6 +317,7 @@
                 display: grid;
                 align-items: center;
                 margin-right: 20px;
+                border-radius: 2px;
         
                 &::before,
                 &::after {
@@ -384,13 +385,13 @@
                 }
         
                 &::before {
-                    height: 2px;
+                    //height: 2px;
                     width: 8px;
                     left: -27px;
                     top: 7px;
-                    background: var(--check);
+                    //background: var(--check);
                     border-radius: 2px;
-                    transition: background 0.3s ease;
+                    //transition: background 0.3s ease;
                 }
         
                 &::after {

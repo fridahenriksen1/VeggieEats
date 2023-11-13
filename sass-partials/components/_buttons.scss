@@ -14,8 +14,11 @@
     @include btn;
 }
 .btn-primary {
-    @include btn(#201f1f,white)
+
+    @include btn(#201f1f,white);
    // background-color:#D3D8D4;
+   margin-top: 10px;
+  
 }
 .btn-secondary{
     @include btn(yellow, coral);

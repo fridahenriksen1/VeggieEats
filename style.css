@@ -251,6 +251,7 @@ a {
   display: grid;
   align-items: center;
   margin-right: 20px;
+  border-radius: 2px;
 }
 #list input[type=checkbox]::before, #list input[type=checkbox]::after {
   content: "";
@@ -271,22 +272,27 @@ a {
   transform-origin: left bottom;
 }
 #list input[type=checkbox]:checked::before {
-  animation: check-01 0.4s ease forwards;
+  -webkit-animation: check-01 0.4s ease forwards;
+          animation: check-01 0.4s ease forwards;
 }
 #list input[type=checkbox]:checked::after {
-  animation: check-02 0.4s ease forwards;
+  -webkit-animation: check-02 0.4s ease forwards;
+          animation: check-02 0.4s ease forwards;
 }
 #list input[type=checkbox]:checked + label {
   color: var(--disabled);
-  animation: move 0.3s ease 0.1s forwards;
+  -webkit-animation: move 0.3s ease 0.1s forwards;
+          animation: move 0.3s ease 0.1s forwards;
   text-decoration: line-through;
 }
 #list input[type=checkbox]:checked + label::before {
   background: var(--disabled);
-  animation: slice 0.4s ease forwards;
+  -webkit-animation: slice 0.4s ease forwards;
+          animation: slice 0.4s ease forwards;
 }
 #list input[type=checkbox]:checked + label::after {
-  animation: firework 0.5s ease forwards 0.1s;
+  -webkit-animation: firework 0.5s ease forwards 0.1s;
+          animation: firework 0.5s ease forwards 0.1s;
 }
 #list label {
   color: var(--text);
@@ -294,6 +300,7 @@ a {
   cursor: pointer;
   display: grid;
   align-items: center;
+  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   transition: color 0.3s ease;
@@ -305,13 +312,10 @@ a {
   position: absolute;
 }
 #list label::before {
-  height: 2px;
   width: 8px;
   left: -27px;
   top: 7px;
-  background: var(--check);
   border-radius: 2px;
-  transition: background 0.3s ease;
 }
 #list label::after {
   height: 4px;
@@ -319,6 +323,16 @@ a {
   top: 8px;
   left: -25px;
   border-radius: 50%;
+}
+
+@-webkit-keyframes move {
+  50% {
+    padding-left: 8px;
+    padding-right: 0px;
+  }
+  100% {
+    padding-right: 4px;
+  }
 }
 
 @keyframes move {
@@ -330,6 +344,17 @@ a {
     padding-right: 4px;
   }
 }
+@-webkit-keyframes slice {
+  60% {
+    width: 100%;
+    left: 4px;
+  }
+  100% {
+    width: 100%;
+    left: -2px;
+    padding-left: 0;
+  }
+}
 @keyframes slice {
   60% {
     width: 100%;
@@ -339,6 +364,28 @@ a {
     width: 100%;
     left: -2px;
     padding-left: 0;
+  }
+}
+@-webkit-keyframes check-01 {
+  0% {
+    width: 4px;
+    top: auto;
+    transform: rotate(0);
+  }
+  50% {
+    width: 0px;
+    top: auto;
+    transform: rotate(0);
+  }
+  51% {
+    width: 0px;
+    top: 8px;
+    transform: rotate(45deg);
+  }
+  100% {
+    width: 5px;
+    top: 8px;
+    transform: rotate(45deg);
   }
 }
 @keyframes check-01 {
@@ -363,6 +410,28 @@ a {
     transform: rotate(45deg);
   }
 }
+@-webkit-keyframes check-02 {
+  0% {
+    width: 4px;
+    top: auto;
+    transform: rotate(0);
+  }
+  50% {
+    width: 0px;
+    top: auto;
+    transform: rotate(0);
+  }
+  51% {
+    width: 0px;
+    top: 8px;
+    transform: rotate(-45deg);
+  }
+  100% {
+    width: 10px;
+    top: 8px;
+    transform: rotate(-45deg);
+  }
+}
 @keyframes check-02 {
   0% {
     width: 4px;
@@ -383,6 +452,19 @@ a {
     width: 10px;
     top: 8px;
     transform: rotate(-45deg);
+  }
+}
+@-webkit-keyframes firework {
+  0% {
+    opacity: 1;
+    box-shadow: 0 0 0 -2px #4f29f0, 0 0 0 -2px #4f29f0, 0 0 0 -2px #4f29f0, 0 0 0 -2px #4f29f0, 0 0 0 -2px #4f29f0, 0 0 0 -2px #4f29f0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    box-shadow: 0 -15px 0 0px #4f29f0, 14px -8px 0 0px #4f29f0, 14px 8px 0 0px #4f29f0, 0 15px 0 0px #4f29f0, -14px 8px 0 0px #4f29f0, -14px -8px 0 0px #4f29f0;
   }
 }
 @keyframes firework {
@@ -578,6 +660,7 @@ a {
   border: 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: white;
+  margin-top: 10px;
 }
 
 .btn-secondary {
@@ -627,6 +710,7 @@ img {
   font-size: 10vw;
   font-weight: 600;
   padding: 10px 0;
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   text-align: center;
@@ -821,6 +905,7 @@ img {
   font-size: 1rem;
   -webkit-user-select: none;
      -moz-user-select: none;
+      -ms-user-select: none;
           user-select: none;
   cursor: pointer;
   margin-bottom: 1rem;
@@ -850,6 +935,8 @@ img {
 }
 .quote .content {
   text-align: center;
+  margin: auto;
+  height: 100%;
 }
 .quote .content .quote-text {
   color: black;
@@ -859,6 +946,8 @@ img {
   margin-bottom: 1rem;
   max-width: 50%;
   height: 100%;
+  margin: auto;
+  border-radius: 0.5rem;
 }
 
 #search {
@@ -911,6 +1000,7 @@ img {
   font-size: 1rem;
   -webkit-user-select: none;
      -moz-user-select: none;
+      -ms-user-select: none;
           user-select: none;
   cursor: pointer;
 }
