@@ -17,7 +17,12 @@ fetch('../json/recept.json')
             let header = document.createElement('header');
             let h1 = document.createElement('h1');
             let p = document.createElement('p');
+            //!Cred variabel till josefines mat
             let cred = document.createElement('a');
+              //!Cred variabel till ICA
+              let credIca = document.createElement ('a');
+              //!Cred variabel till Arla
+              let credArla = document.createElement ('a');
             let h2G = document.createElement('h2');
             let h2I = document.createElement('h2');
             let section1 = document.createElement('section');
@@ -51,7 +56,12 @@ fetch('../json/recept.json')
             section4.classList.add('howToMake');
             buyIngredients.classList.add('class','buy-ingredients');
             p.classList.add('info-recipe')
+            //! class till josefinesmat instagram
             cred.classList.add('cred-text');
+              //! class till ICA:s cred
+              credIca.classList.add('credIca-text');
+              //! class till Arla:s cred
+              credArla.classList.add('credArla-text');
             section1.classList.add('steps-container');
             section2.classList.add('steps-container', 'howToContainer');
             timeCategoty.classList.add('time-ingredients-container');
@@ -67,9 +77,18 @@ fetch('../json/recept.json')
             p.textContent = item.description;
             time.textContent = item.time;
             buyIngredients.textContent = `${amountIngredients} ingredienser`;
+            //! Länken till josefinesmat på instagram
             cred.href = `https://www.instagram.com/${item.credURL}/`;
+             //! Länken till ICA:s sida
+             credIca.href = `https://www.ica.se/${item.credIca}/`;
 
-            cred.textContent = "Tryck här för att besöka Josefinesmat på Instagram, alla recept kommer därifrån!"; 
+             //! Länken till Arla:s sida
+             credArla.href = `https://www.arla.se/${item.credArla}/`;
+
+            //! Vad som ska stå på länken först till joesefinesmat, sen ICA och sen Arla
+            cred.textContent = "Länk till orginalrecept"; 
+            credIca.textContent = "Länk till orginalrecept"; 
+            credArla.textContent = "Länk till orginalrecept"; 
             h2G.textContent = 'Gör så här';
             h2I.textContent = 'Ingredienser';
             timeIcon.textContent = "schedule";
