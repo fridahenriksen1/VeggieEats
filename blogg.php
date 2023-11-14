@@ -193,7 +193,7 @@
         </section>
     </footer>
       <!-- Cookie Popup -->
-  <div id="cookie-popup" class="cookie-popup">
+      <div id="cookie-popup" class="cookie-popup">
     <div class="popup-content">
         <span id="close-icon" class="close-icon">×</span>
         <h2>Vi använder kakor</h2>
@@ -208,12 +208,13 @@
         <button id="only-necessary-button" style="display: none;">Bara nödvändiga</button>
         <button id="ok-button" style="display: none;">Ok</button>
         <div class="b">
-            <a href="/cookie-consent/privacy-policy.html" class="integrity">Integritetspolicy</a>
+        <a href="privacy-policy.php" class="integrity">Integritetspolicy</a>
 
         </div>
     </div>
     <!-- <script src="js/chatgpt.js"></script> -->
     <script src="js/script.js"></script>
+    <script src="../cookie-consent/cookie-consent.js"></script>
 </body>
 
 </html>

@@ -188,7 +188,7 @@ include("inc/abtest.php");
         <button id="only-necessary-button" style="display: none;">Bara nödvändiga</button>
         <button id="ok-button" style="display: none;">Ok</button>
         <div class="b">
-            <a href="/cookie-consent/privacy-policy.html" class="integrity">Integritetspolicy</a>
+        <a href="privacy-policy.php" class="integrity">Integritetspolicy</a>
 
         </div>
     </div>
