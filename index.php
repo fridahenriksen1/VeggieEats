@@ -155,7 +155,7 @@ include("inc/abtest.php");
 
     <footer id="main-footer">
         <section class="footer-inside">
-            <h3>VeggieEats</h3>
+            <!-- <h3>VeggieEats</h3> -->
             <!-- <p>Skriv in din mejl här du, du kommer ändå inte få något</p>
             <form action="/" id="newsletter">
                 <label for="email">
@@ -185,8 +185,8 @@ include("inc/abtest.php");
                 <span class="slider round"></span>
             </label>
         </div>
-        <button id="only-necessary-button" style="display: none;">Bara nödvändiga</button>
-        <button id="ok-button" style="display: none;">Ok</button>
+        <button id="only-necessary-button" style="display: none;">Avvisa</button>
+        <button id="ok-button" style="display: none;">Godkänn</button>
         <div class="b">
         <a href="privacy-policy.php" class="integrity">Integritetspolicy</a>
 
