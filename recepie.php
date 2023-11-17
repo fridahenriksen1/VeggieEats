@@ -8,7 +8,7 @@
     <main>
 
         <section id="search" class="container">
-            <h1>Recept</h1>
+            <h1>Sök bland alla recept</h1>
             <form id="search-bar" role='search'>
                 <label for='header-search'>
                     <span class='visually-hidden'>Search</span>
