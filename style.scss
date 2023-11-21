@@ -145,14 +145,15 @@ img {
 
   .logo {
     color: rgb(11, 11, 11);
-    font-size: 2rem;
+    font-size: 1.2rem;
     //font-weight: 700;
     //font-family: 'Oswald', sans-serif;
     font-family: $logo-text;
+    font-weight: 400;
 
-    @include bp-sm {
-      font-size: 2rem;
-    }
+    // @include bp-sm {
+    //   font-size: 2rem;
+    // }
   }
 
   .main-nav {
@@ -166,7 +167,7 @@ img {
         .link {
           color: $neutral-dark;
           // color: #212121;
-          font-size: 1.3rem;
+          font-size: 0.9rem;
         }
       }
     }
@@ -189,7 +190,7 @@ img {
   background-color: grey;
   width: 100vw;
   height: 60vh;
-  background-image: url("img/zeinas-paella-med-kyckling-och-rakor.png");
+  background-image: url("img/hero_1.webp");
   background-size: cover;
   background-position: center;
 
@@ -206,8 +207,9 @@ img {
     transform: translate(-50%, -50%);
 
     // @include flexbox(column, center, center,nowrap);
-    h1 {
+    .hero-text {
       font-size: 1rem;
+      color: #d3d8d4;
 
       @include bp-sm {
         font-size: 1.5rem;
