@@ -5,9 +5,8 @@
     ?>
 
     <section id="hero" class="img-header">
-        <img src="/img/kantarellPasta.webp" alt="kantarell pasta">
         <article class="content">
-            <h1>Här kommer en samling tips till dig som vill försöka äta mindre kött</h1>
+            <h1 class="hero-text">Här kommer en samling tips till dig som vill försöka äta mindre kött</h1>
             <!-- <p>Att äta mer vegitariskt ska vara lätt, vi är här för att hjälpa dig</p> -->
             <!-- <a class="btn" href="recepie.html">Hitta ditt nya</a> -->
         </article>

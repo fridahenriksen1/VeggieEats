@@ -1,8 +1,8 @@
-<?php
-session_start();
+
+<!-- session_start();
 $urlB = "indextwo.php";
-include("inc/abtest.php");
-?>
+include("inc/abtest.php"); -->
+
 
     <?php 
     $pagetitel = "VeggieEats";
@@ -10,9 +10,9 @@ include("inc/abtest.php");
     ?>
 
     <section id="hero" class="img-header">
-        <img src="/img/kantarellPasta.webp" alt="kantarell pasta" rel="preload">
+        <!-- <img src="/img/kantarellPasta.webp" alt="kantarell pasta" rel="preload"> -->
         <article class="content">
-            <h1>Att äta mer vegetariskt ska vara lätt, vi är här för att hjälpa dig</h1>
+            <h1 class="hero-text">Att äta mer vegetariskt ska vara lätt, vi är här för att hjälpa dig</h1>
             <!-- <p>Att äta mer vegitariskt ska vara lätt, vi är här för att hjälpa dig</p> -->
             <!-- <a class="btn" href="recepie.html">Hitta ditt nya</a> -->
         </article>
@@ -177,8 +177,8 @@ include("inc/abtest.php");
                 <span class="slider round"></span>
             </label>
         </div>
-        <button id="only-necessary-button" style="display: none;">Bara nödvändiga</button>
-        <button id="ok-button" style="display: none;">Ok</button>
+        <button id="only-necessary-button" style="display: none;">Avvisa</button>
+        <button id="ok-button" style="display: none;">Godkänn</button>
         <div class="b">
         <a href="privacy-policy.php" class="integrity">Integritetspolicy</a>
 
