@@ -12,7 +12,7 @@ include("inc/abtest.php"); -->
     <section id="hero" class="img-header">
         <!-- <img src="/img/kantarellPasta.webp" alt="kantarell pasta" rel="preload"> -->
         <article class="content">
-            <h1>Att äta mer vegetariskt ska vara lätt, vi är här för att hjälpa dig</h1>
+            <h1 class="hero-text">Att äta mer vegetariskt ska vara lätt, vi är här för att hjälpa dig</h1>
             <!-- <p>Att äta mer vegitariskt ska vara lätt, vi är här för att hjälpa dig</p> -->
             <!-- <a class="btn" href="recepie.html">Hitta ditt nya</a> -->
         </article>
