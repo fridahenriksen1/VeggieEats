@@ -23,6 +23,7 @@
    <!-- Link to search icon -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png">
 
     
 </head>
