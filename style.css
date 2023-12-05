@@ -21,22 +21,12 @@ h1 {
 }
 @media (min-width: 480px) {
   h1 {
-    font-size: 2rem;
-  }
-}
-@media (min-width: 1200px) {
-  h1 {
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
 }
 
 h2 {
   font-size: 1.5rem;
-}
-@media (min-width: 1200px) {
-  h2 {
-    font-size: 2rem;
-  }
 }
 
 h3 {
@@ -54,7 +44,7 @@ p {
 }
 @media (min-width: 1200px) {
   p {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 }
 
@@ -147,6 +137,13 @@ a {
   text-align: center;
 }
 .recept .bigBox .section3 .time-ingredients-container .ingridients-box .material-symbols-outlined {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.recept .bigBox .section3 .time-ingredients-container .portion-box {
+  text-align: center;
+}
+.recept .bigBox .section3 .time-ingredients-container .portion-box .material-symbols-outlined {
   display: block;
   margin-bottom: 0.5rem;
 }
@@ -628,7 +625,7 @@ img {
   padding-top: 2rem;
 }
 .container .episode__number {
-  font-size: 10vw;
+  font-size: 5vw;
   font-weight: 600;
   padding: 10px 0;
   position: sticky;
@@ -714,6 +711,7 @@ img {
   background-image: url("img/hero_1.webp");
   background-size: cover;
   background-position: center;
+  margin-bottom: 1.5rem;
 }
 #hero img {
   -o-object-fit: cover;

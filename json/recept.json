@@ -1,320 +1,6 @@
 [
   {
     "id": 1,
-    "name": "Halloumi caesarsallad",
-    "source": "instagram",
-    "category": "Sallad",
-    "description": "Denna sallad är en explosion av smaker, med den salta halloumin, den krispiga salladen och den söta fruktiga smaken. Den passar utmärkt till sommarmiddagar eller när du bara vill ha något lätt och uppfriskande. Smaklig måltid!",
-    "ingredients": [
-      {
-        "quantity": "",
-        "name": "Halloumi",
-        "type": "cheese"
-      },
-      {
-        "quantity": "",
-        "name": "Romansallad",
-        "type": "Vegetables"
-      },
-      {
-        "quantity": "",
-        "name": "Jordgubbar/melon",
-        "type": "Vegetables"
-      },
-      {
-        "quantity": "",
-        "name": "Rödlök",
-        "type": "Vegetables"
-      },
-      {
-        "quantity": "",
-        "name": "Gurka",
-        "type": "Vegetables"
-      },
-      {
-        "quantity": "",
-        "name": "Parmesan",
-        "type": "cheese"
-      },
-      {
-        "quantity": "",
-        "name": "Caesardressing",
-        "type": "sauce"
-      }
-    ],
-    "steps": [
-      "Hacka och blanda alla grönsaker.",
-      "Stek Halloumi",
-      "Toppa med parmesan och ceasardressing "
-    ],
-    "html": "halloumi_ceasersallad.php",
-    "time": "Cirka 20 min",
-    "imageURL": "../img/hallomi-cesarsallad-1200.webp",
-    "image400": "../img/hallomi-cesarsallad-400.webp",
-    "image800": "../img/hallomi-cesarsallad-800.webp",
-    "altText": "Somrig bild på en tallrik med hallomi ceasarsallad",
-    "credURL": "p/Cuo6FeKMBUX/'"
-  },
-  {
-    "id": 2,
-    "name": "Vodka pasta",
-    "source": "ica",
-    "category": "Pasta",
-    "description": "Vodkapasta är en krämig och smakrik pastarätt med en distinkt smak av vodka och chili. Den är en perfekt kombination av kryddig hetta och krämig gräddighet. Denna pastarätt är enkel att förbereda och passar både för vardagsmiddagar och speciella tillfällen!",
-    "ingredients": [
-      {
-        "quantity": "3 st",
-        "name": "vitlöksklyftor",
-        "type": "Vegetables"
-      },
-      {
-        "quantity": "2 msk",
-        "name": "olivolja",
-        "type": "Condiments"
-      },
-      {
-        "quantity": "1 dl",
-        "name": "tomatpuré",
-        "type": "Canned Goods"
-      },
-      {
-        "quantity": "1/2 tsk",
-        "name": "chilliflakes",
-        "type": "Spices"
-      },
-      {
-        "quantity": "1/2 dl",
-        "name": "vodka",
-        "type": "Drinks"
-      },
-      {
-        "quantity": "2 1/2 dl",
-        "name": "vispgrädde",
-        "type": "Condiments"
-      },
-      {
-        "quantity": "",
-        "name": "salt",
-        "type": "Spices"
-      },
-      {
-        "quantity": "",
-        "name": "svartpeppar",
-        "type": "Spices"
-      },
-      {
-        "quantity": "4 port",
-        "name": "pasta",
-        "type": "Pasta"
-      }
-    ],
-    "steps": [
-      "Skala och hacka vitlöken. Fräs i oljan tills den får lite färg. Tillsätt tomatpuré och chiliflakes och fräs ytterligare ca 5 minuter på medelvärme. Häll i vodkan och låt koka någon minut.",
-      "Rör ner grädden och låt koka ihop. Smaka av med salt och peppar.",
-      "Koka pastan enligt anvisning på förpackningen. Häll av och spar 1–2 dl av pastavattnet (för 4 port). Rör ner pastan. Tillsätt lite pastavatten i taget rör till önskad konsistens. Toppa med parmesan och basilika."
-    ],
-    "timers": [0, 0, 900, 0],
-    "html": "spaghetti_bolognese.php",
-    "time": "Under 30 min",
-    "buyIngredients": "11 ingredienser",
-    "imageURL": "../img/vodka-pasta-1200.webp",
-    "image400": "../img/vodka-pasta-400.webp",
-    "image800": "../img/vodka-pasta-800.webp",
-    "altText": "Röd pasta penne som är färgad av tomat ligger på en grå brun tallrik. Pastan är toppad med parmesan och färsk basilika",
-    "credURL": "recept/vodkapasta-729011/"
-  },
-  {
-    "id": 3,
-    "name": "Halloumigryta med jordnötssås",
-    "source": "ica",
-    "category": "Ris",
-    "description": "Här steks halloumin gyllenbrun, och serveras tillsammans med spenat som fått tillagas i en härlig thai satay curry, och passar utmärkt ihop med kokt ris. Vi önskar dig en enkel och smakrik vegomåltid!",
-    "ingredients": [
-      {
-        "quantity": "4",
-        "name": "port ris eller annat gryn",
-        "type": "Rice"
-      },
-      {
-        "quantity": "400 g",
-        "name": "halloumi eller grillost",
-        "type": "cheese"
-      },
-      {
-        "quantity": "1 msk",
-        "name": "olja",
-        "type": "oil"
-      },
-      {
-        "quantity": "1",
-        "name": "burk thai satay curry grytbas (à 400 ml)",
-        "type": "Spices"
-      },
-      {
-        "quantity": "65 g",
-        "name": "babyspenat",
-        "type": "Vegetables"
-      },
-      {
-        "quantity": "250 g",
-        "name": "tomater",
-        "type": "Vegetables"
-      }
-    ],
-    "steps": [
-      "Koka riset enligt anvisningen på förpackningen.",
-      "Skär halloumin i bitar och stek dem i oljan i en stekpanna. Lägg upp halloumin på en tallrik.",
-      "Sänk värmen på plattan och rör i satay grytbasen och spenaten. Sjud i 2 minuter.",
-      "Skär tomaterna i bitar och rör i pannan. ",
-      "Servera grytan med halloumi och ris."
-    ],
-    "timers": [0, 300, 300, 0, 0],
-    "html": "halloumigryta_jordnotssas.php",
-    "time": "Under 30 min",
-    "buyIngredients": "6 ingredienser",
-    "imageURL": "../img/ica-hallomigryta-jordnösås-1200.webp",
-    "image400": "../img/ica-hallomigryta-jordnösås-400.webp",
-    "image800": "../img/ica-hallomigryta-jordnösås-800.webp",
-    "altText": "Ljus bild på en djup skål med ris och hallomigryta. maten är inte blandad utan ligger som lager på varandra. Hallomigrytan är gul, i grytan ligger grönsaker och halva plompntommater syns tydligt.",
-    "credURL": "recept/halloumigryta-med-jordnotssas-725010/"
-  },
-  {
-    "id": 4,
-    "name": "Pizza bianco med sparris",
-    "source": "ica",
-    "category": "Pizza",
-    "description": "Pizza bianco är en pizza utan tomatsås, här lakto- vegetarisk med crème fraiche som bas. Toppad med grön sparris och mâchesallad är detta en både vacker och riktigt läcker pizza med en lyxig känsla. Så gott!",
-    "ingredients": [
-      {
-        "quantity": "250 g",
-        "name": "grön sparris",
-        "type": "Vegetables"
-      },
-      {
-        "quantity": "1 msk",
-        "name": "olivolja",
-        "type": "oil"
-      },
-      {
-        "quantity": "",
-        "name": "salt",
-        "type": "Spices"
-      },
-      {
-        "quantity": "",
-        "name": "svartpeppar",
-        "type": "Spices"
-      },
-      {
-        "quantity": "1  förp",
-        "name": "färska pizzabottnar (à 360 g)",
-        "type": "Bread"
-      },
-      {
-        "quantity": "2 dl",
-        "name": "lätt crème fraiche med parmesan och vitlök",
-        "type": "Dairy"
-      },
-      {
-        "quantity": "2 dl",
-        "name": "riven cheddarost",
-        "type": "Dairy"
-      },
-      {
-        "quantity": "65 g",
-        "name": "mâchesallad",
-        "type": "Vegetables"
-      }
-    ],
-    "steps": [
-      "Sätt ugnen på 250°C.",
-      "Skär bort ca 2 cm av botten på sparrisen. Skala den nedre halvan om sparrisarna är tjocka. Blanda sparrisen med olivoljan och krydda med salt och peppar. ",
-      "Lägg ut pizzabottnarna på ugnsplåtar.",
-      "Fördela crème fraichen på pizzabottnarna. Lägg på sparrisen och riven ost. ",
-      "Grädda pizzorna mitt i ugnen i omgångar, ca 5 min.  ",
-      "Toppa pizzorna med mâchesallad och servera."
-    ],
-    "timers": [0, 300, 600, 0],
-    "html": "pizza-bianco-sparris.php",
-    "time": "Under 30 min",
-    "buyIngredients": "6 ingredienser",
-    "imageURL": "../img/ica-pizza-blanco-sparris-1200.webp",
-    "image400": "../img/ica-pizza-blanco-sparris-400.webp",
-    "image800": "../img/ica-pizza-blanco-sparris-800.webp",
-    "altText": "Ljus bild på en pizza som ser rätt blek ut, brödet är lätt gräddat, på brödet ligger sparris och basilika.",
-    "credURL": "recept/pizza-bianco-med-sparris-725263/"
-  },
-  {
-    "id": 5,
-    "name": "Pasta Alfredo",
-    "source": "arla",
-    "category": "Pasta",
-    "description": "Pasta Alfredo är en klassisk italiensk pastarätt med smör, ost och grädde. Den går riktigt snabbt att laga och brukar uppskattas av alla! Den här pastarätten passar utmärkt till lunch eller när du behöver en snabblagad middag och är perfekt att fylla matlådan med. Om du vill ha mer protein kan du även lägga till kyckling, kalkon eller ett alternativ till kött, men det här är grundreceptet. Pasta Alfredo blir som godast när den serveras direkt.",
-    "ingredients": [
-      {
-        "quantity": "300 g",
-        "name": "fettuccine",
-        "type": "Pasta"
-      },
-      {
-        "quantity": "100 g",
-        "name": "riven ost",
-        "type": "Dairy"
-      },
-      {
-        "quantity": "2",
-        "name": "schalottenlökar",
-        "type": "Vegetables"
-      },
-      {
-        "quantity": "2",
-        "name": "vitlöksklyftor",
-        "type": "Vegetables"
-      },
-      {
-        "quantity": "2 msk",
-        "name": "margarin",
-        "type": "Dairy"
-      },
-      {
-        "quantity": "3 dl",
-        "name": "matlagningsgrädde",
-        "type": "Dairy"
-      },
-      {
-        "quantity": "200 g",
-        "name": "frysta gröna ärter",
-        "type": "Vegetables"
-      },
-      {
-        "quantity": "",
-        "name": "salt",
-        "type": "Spices"
-      },
-      {
-        "quantity": "",
-        "name": "nymalen svartpeppar",
-        "type": "Spices"
-      }
-    ],
-    "steps": [
-      "Koka pastan al dente enligt anvisning på förpackningen. Finriv osten och ställ åt sidan.",
-      "Skala och finhacka lök och vitlök. Fräs all lök mjuk i smöret. Häll på grädde och ärter. Koka upp, ta från värmen och rör ner osten. Smaka av med salt och rikligt med nymalen svartpeppar.",
-      "Blanda den nykokta pastan med såsen.",
-      "Servera din Pasta Alfredo med nymalen svartpeppar; du kan även piffa till rätten med lite färsk persilja om du vill."
-    ],
-    "timers": [0, 360, 600, 0],
-    "html": "pasta_alfredo.php",
-    "time": "30 min",
-    "buyIngredients": "9 ingredienser",
-    "imageURL": "../img/pasta-alfredo-1200.webp",
-    "image400": "../img/pasta-alfredo-400.webp",
-    "image800": "../img/pasta-alfredo-800.webp",
-    "altText": "På en svart tallrik ligger en kladdig pasta där gröna ärtor syns, pastan är tagliatelle.",
-    "credURL": "recept/pasta-alfredo/"
-  },
-  {
-    "id": 6,
     "name": "Kantarellpasta",
     "source": "arla",
     "category": "Pasta",
@@ -391,6 +77,7 @@
     "timers": [0, 0, 900, 0],
     "html": "kantarellpasta.php",
     "time": "30 min",
+    "portions": "4 port",
     "buyIngredients": "12 ingredienser",
     "imageURL": "../img/kantarellpasta-1200.webp",
     "image400": "../img/kantarellpasta-400.webp",
@@ -399,82 +86,7 @@
     "credURL": "recept/kantarellpasta/"
   },
   {
-    "id": 7,
-    "name": "Stekt ris",
-    "source": "arla",
-    "category": "Ris",
-    "description": "Stekt ris med grönsaker och ägg är en lättlagad vardagsrätt. Ett utmärkt sätt att ta tillvara ris och grönsaker som blivit över. Äggen som blandas ner gör det stekta riset krämigt och dressingen med brynt smör, soja och lime ger rätten dess rätta karaktär.",
-    "ingredients": [
-      {
-        "quantity": "3 dl",
-        "name": "jasminris",
-        "type": "Rice"
-      },
-      {
-        "quantity": "1",
-        "name": "morot",
-        "type": "Vegetables"
-      },
-      {
-        "quantity": "1",
-        "name": "röd paprika",
-        "type": "Vegetables"
-      },
-      {
-        "quantity": "150 g",
-        "name": "sockerärtor",
-        "type": "Vegetables"
-      },
-      {
-        "quantity": "3",
-        "name": "vitlöksklyftor",
-        "type": "Vegetables"
-      },
-      {
-        "quantity": "2 msk",
-        "name": "matolja",
-        "type": "oil"
-      },
-      {
-        "quantity": "1 tsk",
-        "name": "chili flakes",
-        "type": "Spices"
-      },
-      {
-        "quantity": "2",
-        "name": "ägg",
-        "type": "Spices"
-      },
-      {
-        "quantity": "",
-        "name": "färsk koriander",
-        "type": "Spices"
-      },
-      {
-        "quantity": "",
-        "name": "rostad lök",
-        "type": "Spices"
-      }
-    ],
-    "steps": [
-      "Koka riset enligt anvisning på förpackningen.",
-      "Skala och skär tunna stavar av moroten. Strimla paprika och sockerärter. Skala och finhacka vitlöken.",
-      "Hetta upp matoljan i en rymlig stekpanna. Stek alla grönsaker med vitlök och chili flakes på hög värme 2–3 min.",
-      "Tillsätt riset och knäck ner äggen. Stek under omrörning tills äggen stelnat. ",
-      "Toppa stekt ris med koriander och rostad lök. Servera direkt."
-    ],
-    "timers": [0, 0, 0],
-    "html": "stekt_ris.php",
-    "time": "35 min",
-    "buyIngredients": "10 ingredienser",
-    "imageURL": "../img/stekt-ris-1200.webp",
-    "image400": "../img/stekt-ris-400.webp",
-    "image800": "../img/stekt-ris-800.webp",
-    "altText": "I en djup skål synns risblandat med grönsaker, toppad med koriander och en fjärdedels lime. Över skålen ligger ett par matpinnar.",
-    "credURL": "recept/stekt-ris/"
-  },
-  {
-    "id": 8,
+    "id": 2,
     "name": "Krämig halloumi- pestopasta med sparris",
     "source": "instagram",
     "category": "Pasta",
@@ -554,13 +166,410 @@
     "timers": [0, 600, 0, 0],
     "html": "kramig-halloumi-pestopasta.php",
     "time": "ca 30 min",
+    "portions": "4 port",
     "buyIngredients": "11 ingredienser",
     "imageURL": "../img/Krämig-kantarell-hallomipasta-1200.webp",
     "image400": "../img/Krämig-kantarell-hallomipasta-400.webp",
     "image800": "../img/Krämig-kantarell-hallomipasta-800.webp",
     "altText": "I en panna syns pasta fysilli. Bilden är rörig och det ger en känsla av att mattlagningen är pågående men väldogt nära klar. I pastan syns kantareller, hallomi, ost och pinjenötter.",
-    "credURL": "p/Cv7RPK6uRr_/"
+    "credURL": "p/Cv7RPK6uRr_"
   },
+  {
+    "id": 3,
+    "name": "Pizza bianco med sparris",
+    "source": "ica",
+    "category": "Pizza",
+    "description": "Pizza bianco är en pizza utan tomatsås, här lakto- vegetarisk med crème fraiche som bas. Toppad med grön sparris och mâchesallad är detta en både vacker och riktigt läcker pizza med en lyxig känsla. Så gott!",
+    "ingredients": [
+      {
+        "quantity": "250 g",
+        "name": "grön sparris",
+        "type": "Vegetables"
+      },
+      {
+        "quantity": "1 msk",
+        "name": "olivolja",
+        "type": "oil"
+      },
+      {
+        "quantity": "",
+        "name": "salt",
+        "type": "Spices"
+      },
+      {
+        "quantity": "",
+        "name": "svartpeppar",
+        "type": "Spices"
+      },
+      {
+        "quantity": "1  förp",
+        "name": "färska pizzabottnar (à 360 g)",
+        "type": "Bread"
+      },
+      {
+        "quantity": "2 dl",
+        "name": "lätt crème fraiche med parmesan och vitlök",
+        "type": "Dairy"
+      },
+      {
+        "quantity": "2 dl",
+        "name": "riven cheddarost",
+        "type": "Dairy"
+      },
+      {
+        "quantity": "65 g",
+        "name": "mâchesallad",
+        "type": "Vegetables"
+      }
+    ],
+    "steps": [
+      "Sätt ugnen på 250°C.",
+      "Skär bort ca 2 cm av botten på sparrisen. Skala den nedre halvan om sparrisarna är tjocka. Blanda sparrisen med olivoljan och krydda med salt och peppar. ",
+      "Lägg ut pizzabottnarna på ugnsplåtar.",
+      "Fördela crème fraichen på pizzabottnarna. Lägg på sparrisen och riven ost. ",
+      "Grädda pizzorna mitt i ugnen i omgångar, ca 5 min.  ",
+      "Toppa pizzorna med mâchesallad och servera."
+    ],
+    "timers": [0, 300, 600, 0],
+    "html": "pizza-bianco-sparris.php",
+    "time": "Under 30 min",
+    "portions": "4 port",
+    "buyIngredients": "6 ingredienser",
+    "imageURL": "../img/ica-pizza-blanco-sparris-1200.webp",
+    "image400": "../img/ica-pizza-blanco-sparris-400.webp",
+    "image800": "../img/ica-pizza-blanco-sparris-800.webp",
+    "altText": "Ljus bild på en pizza som ser rätt blek ut, brödet är lätt gräddat, på brödet ligger sparris och basilika.",
+    "credURL": "recept/pizza-bianco-med-sparris-725263/"
+  },
+  {
+    "id": 4,
+    "name": "Halloumigryta med jordnötssås",
+    "source": "ica",
+    "category": "Ris",
+    "description": "Här steks halloumin gyllenbrun, och serveras tillsammans med spenat som fått tillagas i en härlig thai satay curry, och passar utmärkt ihop med kokt ris. Vi önskar dig en enkel och smakrik vegomåltid!",
+    "ingredients": [
+      {
+        "quantity": "4",
+        "name": "port ris eller annat gryn",
+        "type": "Rice"
+      },
+      {
+        "quantity": "400 g",
+        "name": "halloumi eller grillost",
+        "type": "cheese"
+      },
+      {
+        "quantity": "1 msk",
+        "name": "olja",
+        "type": "oil"
+      },
+      {
+        "quantity": "1",
+        "name": "burk thai satay curry grytbas (à 400 ml)",
+        "type": "Spices"
+      },
+      {
+        "quantity": "65 g",
+        "name": "babyspenat",
+        "type": "Vegetables"
+      },
+      {
+        "quantity": "250 g",
+        "name": "tomater",
+        "type": "Vegetables"
+      }
+    ],
+    "steps": [
+      "Koka riset enligt anvisningen på förpackningen.",
+      "Skär halloumin i bitar och stek dem i oljan i en stekpanna. Lägg upp halloumin på en tallrik.",
+      "Sänk värmen på plattan och rör i satay grytbasen och spenaten. Sjud i 2 minuter.",
+      "Skär tomaterna i bitar och rör i pannan. ",
+      "Servera grytan med halloumi och ris."
+    ],
+    "timers": [0, 300, 300, 0, 0],
+    "html": "halloumigryta_jordnotssas.php",
+    "time": "Under 30 min",
+    "portions": "4 port",
+    "buyIngredients": "6 ingredienser",
+    "imageURL": "../img/ica-hallomigryta-jordnösås-1200.webp",
+    "image400": "../img/ica-hallomigryta-jordnösås-400.webp",
+    "image800": "../img/ica-hallomigryta-jordnösås-800.webp",
+    "altText": "Ljus bild på en djup skål med ris och hallomigryta. maten är inte blandad utan ligger som lager på varandra. Hallomigrytan är gul, i grytan ligger grönsaker och halva plompntommater syns tydligt.",
+    "credURL": "recept/halloumigryta-med-jordnotssas-725010/"
+  },
+  {
+    "id": 5,
+    "name": "Pasta Alfredo",
+    "source": "arla",
+    "category": "Pasta",
+    "description": "Pasta Alfredo är en klassisk italiensk pastarätt med smör, ost och grädde. Den går riktigt snabbt att laga och brukar uppskattas av alla! Den här pastarätten passar utmärkt till lunch eller när du behöver en snabblagad middag och är perfekt att fylla matlådan med. Om du vill ha mer protein kan du även lägga till kyckling, kalkon eller ett alternativ till kött, men det här är grundreceptet. Pasta Alfredo blir som godast när den serveras direkt.",
+    "ingredients": [
+      {
+        "quantity": "300 g",
+        "name": "fettuccine",
+        "type": "Pasta"
+      },
+      {
+        "quantity": "100 g",
+        "name": "riven ost",
+        "type": "Dairy"
+      },
+      {
+        "quantity": "2",
+        "name": "schalottenlökar",
+        "type": "Vegetables"
+      },
+      {
+        "quantity": "2",
+        "name": "vitlöksklyftor",
+        "type": "Vegetables"
+      },
+      {
+        "quantity": "2 msk",
+        "name": "margarin",
+        "type": "Dairy"
+      },
+      {
+        "quantity": "3 dl",
+        "name": "matlagningsgrädde",
+        "type": "Dairy"
+      },
+      {
+        "quantity": "200 g",
+        "name": "frysta gröna ärter",
+        "type": "Vegetables"
+      },
+      {
+        "quantity": "",
+        "name": "salt",
+        "type": "Spices"
+      },
+      {
+        "quantity": "",
+        "name": "nymalen svartpeppar",
+        "type": "Spices"
+      }
+    ],
+    "steps": [
+      "Koka pastan al dente enligt anvisning på förpackningen. Finriv osten och ställ åt sidan.",
+      "Skala och finhacka lök och vitlök. Fräs all lök mjuk i smöret. Häll på grädde och ärter. Koka upp, ta från värmen och rör ner osten. Smaka av med salt och rikligt med nymalen svartpeppar.",
+      "Blanda den nykokta pastan med såsen.",
+      "Servera din Pasta Alfredo med nymalen svartpeppar; du kan även piffa till rätten med lite färsk persilja om du vill."
+    ],
+    "timers": [0, 360, 600, 0],
+    "html": "pasta_alfredo.php",
+    "time": "30 min",
+    "portions": "4 port",
+    "buyIngredients": "9 ingredienser",
+    "imageURL": "../img/pasta-alfredo-1200.webp",
+    "image400": "../img/pasta-alfredo-400.webp",
+    "image800": "../img/pasta-alfredo-800.webp",
+    "altText": "På en svart tallrik ligger en kladdig pasta där gröna ärtor syns, pastan är tagliatelle.",
+    "credURL": "recept/pasta-alfredo/"
+  },
+  {
+    "id": 6,
+    "name": "Halloumi caesarsallad",
+    "source": "instagram",
+    "category": "Sallad",
+    "description": "Denna sallad är en explosion av smaker, med den salta halloumin, den krispiga salladen och den söta fruktiga smaken. Den passar utmärkt till sommarmiddagar eller när du bara vill ha något lätt och uppfriskande. Smaklig måltid!",
+    "ingredients": [
+      {
+        "quantity": "",
+        "name": "Halloumi",
+        "type": "cheese"
+      },
+      {
+        "quantity": "",
+        "name": "Romansallad",
+        "type": "Vegetables"
+      },
+      {
+        "quantity": "",
+        "name": "Jordgubbar/melon",
+        "type": "Vegetables"
+      },
+      {
+        "quantity": "",
+        "name": "Rödlök",
+        "type": "Vegetables"
+      },
+      {
+        "quantity": "",
+        "name": "Gurka",
+        "type": "Vegetables"
+      },
+      {
+        "quantity": "",
+        "name": "Parmesan",
+        "type": "cheese"
+      },
+      {
+        "quantity": "",
+        "name": "Caesardressing",
+        "type": "sauce"
+      }
+    ],
+    "steps": [
+      "Hacka och blanda alla grönsaker.",
+      "Stek Halloumi",
+      "Toppa med parmesan och ceasardressing "
+    ],
+    "html": "halloumi_ceasersallad.php",
+    "time": "Cirka 20 min",
+    "portions": "4 port",
+    "imageURL": "../img/hallomi-cesarsallad-1200.webp",
+    "image400": "../img/hallomi-cesarsallad-400.webp",
+    "image800": "../img/hallomi-cesarsallad-800.webp",
+    "altText": "Somrig bild på en tallrik med hallomi ceasarsallad",
+    "credURL": "p/Cuo6FeKMBUX/'"
+  },
+  {
+    "id": 7,
+    "name": "Stekt ris",
+    "source": "arla",
+    "category": "Ris",
+    "description": "Stekt ris med grönsaker och ägg är en lättlagad vardagsrätt. Ett utmärkt sätt att ta tillvara ris och grönsaker som blivit över. Äggen som blandas ner gör det stekta riset krämigt och dressingen med brynt smör, soja och lime ger rätten dess rätta karaktär.",
+    "ingredients": [
+      {
+        "quantity": "3 dl",
+        "name": "jasminris",
+        "type": "Rice"
+      },
+      {
+        "quantity": "1",
+        "name": "morot",
+        "type": "Vegetables"
+      },
+      {
+        "quantity": "1",
+        "name": "röd paprika",
+        "type": "Vegetables"
+      },
+      {
+        "quantity": "150 g",
+        "name": "sockerärtor",
+        "type": "Vegetables"
+      },
+      {
+        "quantity": "3",
+        "name": "vitlöksklyftor",
+        "type": "Vegetables"
+      },
+      {
+        "quantity": "2 msk",
+        "name": "matolja",
+        "type": "oil"
+      },
+      {
+        "quantity": "1 tsk",
+        "name": "chili flakes",
+        "type": "Spices"
+      },
+      {
+        "quantity": "2",
+        "name": "ägg",
+        "type": "Spices"
+      },
+      {
+        "quantity": "",
+        "name": "färsk koriander",
+        "type": "Spices"
+      },
+      {
+        "quantity": "",
+        "name": "rostad lök",
+        "type": "Spices"
+      }
+    ],
+    "steps": [
+      "Koka riset enligt anvisning på förpackningen.",
+      "Skala och skär tunna stavar av moroten. Strimla paprika och sockerärter. Skala och finhacka vitlöken.",
+      "Hetta upp matoljan i en rymlig stekpanna. Stek alla grönsaker med vitlök och chili flakes på hög värme 2–3 min.",
+      "Tillsätt riset och knäck ner äggen. Stek under omrörning tills äggen stelnat. ",
+      "Toppa stekt ris med koriander och rostad lök. Servera direkt."
+    ],
+    "timers": [0, 0, 0],
+    "html": "stekt_ris.php",
+    "time": "35 min",
+    "portions": "4 port",
+    "buyIngredients": "10 ingredienser",
+    "imageURL": "../img/stekt-ris-1200.webp",
+    "image400": "../img/stekt-ris-400.webp",
+    "image800": "../img/stekt-ris-800.webp",
+    "altText": "I en djup skål synns risblandat med grönsaker, toppad med koriander och en fjärdedels lime. Över skålen ligger ett par matpinnar.",
+    "credURL": "recept/stekt-ris/"
+  },
+  {
+    "id": 8,
+    "name": "Vodka pasta",
+    "source": "ica",
+    "category": "Pasta",
+    "description": "Vodkapasta är en krämig och smakrik pastarätt med en distinkt smak av vodka och chili. Den är en perfekt kombination av kryddig hetta och krämig gräddighet. Denna pastarätt är enkel att förbereda och passar både för vardagsmiddagar och speciella tillfällen!",
+    "ingredients": [
+      {
+        "quantity": "3 st",
+        "name": "vitlöksklyftor",
+        "type": "Vegetables"
+      },
+      {
+        "quantity": "2 msk",
+        "name": "olivolja",
+        "type": "Condiments"
+      },
+      {
+        "quantity": "1 dl",
+        "name": "tomatpuré",
+        "type": "Canned Goods"
+      },
+      {
+        "quantity": "1/2 tsk",
+        "name": "chilliflakes",
+        "type": "Spices"
+      },
+      {
+        "quantity": "1/2 dl",
+        "name": "vodka",
+        "type": "Drinks"
+      },
+      {
+        "quantity": "2 1/2 dl",
+        "name": "vispgrädde",
+        "type": "Condiments"
+      },
+      {
+        "quantity": "",
+        "name": "salt",
+        "type": "Spices"
+      },
+      {
+        "quantity": "",
+        "name": "svartpeppar",
+        "type": "Spices"
+      },
+      {
+        "quantity": "4 port",
+        "name": "pasta",
+        "type": "Pasta"
+      }
+    ],
+    "steps": [
+      "Skala och hacka vitlöken. Fräs i oljan tills den får lite färg. Tillsätt tomatpuré och chiliflakes och fräs ytterligare ca 5 minuter på medelvärme. Häll i vodkan och låt koka någon minut.",
+      "Rör ner grädden och låt koka ihop. Smaka av med salt och peppar.",
+      "Koka pastan enligt anvisning på förpackningen. Häll av och spar 1–2 dl av pastavattnet (för 4 port). Rör ner pastan. Tillsätt lite pastavatten i taget rör till önskad konsistens. Toppa med parmesan och basilika."
+    ],
+    "timers": [0, 0, 900, 0],
+    "html": "spaghetti_bolognese.php",
+    "time": "Under 30 min",
+    "portions": "4 port",
+    "buyIngredients": "11 ingredienser",
+    "imageURL": "../img/vodka-pasta-1200.webp",
+    "image400": "../img/vodka-pasta-400.webp",
+    "image800": "../img/vodka-pasta-800.webp",
+    "altText": "Röd pasta penne som är färgad av tomat ligger på en grå brun tallrik. Pastan är toppad med parmesan och färsk basilika",
+    "credURL": "recept/vodkapasta-729011/"
+  },
+
   {
     "id": 9,
     "name": "Vegocurry med broccoli och halloumi",
@@ -614,6 +623,7 @@
     "timers": [0, 300, 0, 0],
     "html": "vegocurry-broccoli-hallomi.php",
     "time": "under 30 min",
+    "portions": "4 port",
     "buyIngredients": "6 ingredienser",
     "imageURL": "../img/Vegocurry-broccoli-halloumi-1200.webp",
     "image400": "../img/Vegocurry-broccoli-halloumi-400.webp",
@@ -678,6 +688,7 @@
     "timers": [0, 0, 0, 0, 0, 600, 0],
     "html": "gron-couscous.php",
     "time": "under 30 min",
+    "portions": "4 port",
     "buyIngredients": "7 ingredienser",
     "imageURL": "../img/ica-gron-coscos-1200.webp",
     "image400": "../img/ica-gron-coscos-400.webp",
@@ -737,6 +748,7 @@
     "timers": [0, 0, 0, 0, 0, 600, 0],
     "html": "snabb-couscous-bowl.php",
     "time": "under 30 min",
+    "portions": "4 port",
     "buyIngredients": "7 ingredienser",
     "imageURL": "../img/ica-coscos-avocadoboal-1200.webp",
     "image400": "../img/ica-coscos-avocadoboal-400.webp",
@@ -822,6 +834,7 @@
     "timers": [0, 0, 0, 0, 0, 600, 0],
     "html": "risotto-skogschampinjoner.php",
     "time": "under 45 min",
+    "portions": "4 port",
     "buyIngredients": "12 ingredienser",
     "imageURL": "../img/risotto-med-skogschampinjoner-1200.webp",
     "image400": "../img/risotto-med-skogschampinjoner-400.webp",
@@ -897,6 +910,7 @@
     "timers": [0, 0, 0, 0, 0, 600, 0],
     "html": "avokadosallad.php",
     "time": "under 30 min",
+    "portions": "4 port",
     "buyIngredients": "9 ingredienser",
     "imageURL": "../img/Skärmbild-avokadosalad-sparris-1200.webp",
     "image400": "../img/Skärmbild-avokadosalad-sparris-400.webp",
@@ -991,6 +1005,7 @@
     "timers": [0, 0, 0, 0, 0, 600, 0],
     "html": "onepotpasta-bonor.php",
     "time": "30 min",
+    "portions": "4 port",
     "buyIngredients": "14 ingredienser",
     "imageURL": "../img/one-pot-pasta-bonor-soltorkadetomater-1200.webp",
     "image400": "../img/one-pot-pasta-bonor-soltorkadetomater-400.webp",
@@ -1081,6 +1096,7 @@
     "timers": [0, 0, 0, 0, 0, 600, 0],
     "html": "halloumi-stroganoff.php",
     "time": "20 min",
+    "portions": "4 port",
     "buyIngredients": "13 ingredienser",
     "imageURL": "../img/hallomi-stroganoff-1200.webp",
     "image400": "../img/hallomi-stroganoff-400.webp",
@@ -1150,6 +1166,7 @@
     "timers": [0, 0, 0, 0, 0, 600, 0],
     "html": "broccoligratang-pasta.php",
     "time": "30 min",
+    "portions": "4 port",
     "buyIngredients": "8 ingredienser",
     "imageURL": "../img/broccoligratang-pasta-1200.webp",
     "image400": "../img/broccoligratang-pasta-400.webp",
@@ -1205,6 +1222,7 @@
     "timers": [0, 0, 0, 0, 0, 600, 0],
     "html": "tortillapizza-brie.php",
     "time": "ca 20 min",
+    "portions": "4 port",
     "buyIngredients": "6 ingredienser",
     "imageURL": "../img/Tortillapizza-brie-1200.webp",
     "image400": "../img/Tortillapizza-brie-400.webp",
@@ -1267,6 +1285,7 @@
     "timers": [0, 0, 0, 0, 0, 600, 0],
     "html": "halloumitallrik.php",
     "time": "ca 20 min",
+    "portions": "4 port",
     "buyIngredients": "7 ingredienser",
     "imageURL": "../img/Halloumitallrik-ugnspotatis-1200.webp",
     "image400": "../img/Halloumitallrik-ugnspotatis-400.webp",
@@ -1344,6 +1363,7 @@
     "timers": [0, 0, 0, 0, 0, 600, 0],
     "html": "pankofriterade-fetaostbiffar.php",
     "time": "ca 45 min",
+    "portions": "4 port",
     "buyIngredients": "10 ingredienser",
     "imageURL": "../img/pankofriterade-fetaostbiffar-1200.webp",
     "image400": "../img/pankofriterade-fetaostbiffar-400.webp",

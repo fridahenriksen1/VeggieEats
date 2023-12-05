@@ -4,7 +4,7 @@
     include("header.php");
     ?>
     <main class="container ">
-        <div class="recept" id="6">
+        <div class="recept" id="1">
 
 
 
@@ -13,15 +13,7 @@
     </main>
     <footer id="main-footer">
         <section class="footer-inside">
-            <h3>VeggieEats</h3>
-            <!-- <p>Skriv in din mejl här du, du kommer ändå inte få något</p>
-            <form action="/" id="newsletter">
-                <label for="email">
-                    <span class="visually-hidden">Email</span>
-                </label>
-                <input class="textField" type="text" name="email" id="email" placeholder="Email">
-                <input class="btn btn-submit" type="submit" value="Skicka">
-            </form> -->
+  
             <button id="cookie-settings-button" class="cookie-settings-button">Kakinställningar</button>
             <p class="footer-text">©Copyright 2023 VegieEats</p>
         </section>

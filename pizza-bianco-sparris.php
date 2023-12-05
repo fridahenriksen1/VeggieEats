@@ -4,7 +4,7 @@
     include("header.php");
     ?>
     <main class="container ">
-        <div class="recept" id="4">
+        <div class="recept" id="3">
 
 
 
@@ -13,7 +13,6 @@
     </main>
     <footer id="main-footer">
         <section class="footer-inside">
-            <h3>VeggieEats</h3>
             <button id="cookie-settings-button" class="cookie-settings-button">Kakinställningar</button>
             <p class="footer-text">©Copyright 2023 VegieEats</p>
         </section>
