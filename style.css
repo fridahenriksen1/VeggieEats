@@ -703,7 +703,6 @@ img {
 }
 
 #hero {
-  position: relative;
   color: black;
   position: relative;
   text-align: center;
@@ -752,16 +751,11 @@ img {
 }
 
 .popular {
-  padding: 1.5rem 0rem;
-}
-@media (min-width: 480px) {
-  .popular {
-    padding: 1.5rem 1rem;
-  }
+  margin-bottom: 1rem;
 }
 .popular .popular-cards {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: stretch;
   flex-wrap: wrap;
   gap: 1rem;
@@ -777,12 +771,12 @@ img {
 }
 @media (min-width: 480px) {
   .card {
-    flex: 0 0 calc(50% - 1rem);
+    flex: 0 0 calc(50% - 0.5rem);
   }
 }
 @media (min-width: 960px) {
   .card {
-    flex: 0 0 calc(33.3333333333% - 1rem);
+    flex: 0 0 calc(33.3333333333% - 0.6666666667rem);
   }
 }
 .card .card-content {
@@ -841,40 +835,23 @@ img {
 }
 
 .quote {
-  padding: 5rem 0;
-  width: 100%;
-  height: 100%;
-  --s: 100px;
-  /* control the size */
-  --c1: #ffff;
-  --c2: #d3d8d4;
-  --_g: var(--c2) 6% 14%, var(--c1) 16% 24%, var(--c2) 26% 34%,
-    var(--c1) 36% 44%, var(--c2) 46% 54%, var(--c1) 56% 64%, var(--c2) 66% 74%,
-    var(--c1) 76% 84%, var(--c2) 86% 94%;
-  background: radial-gradient(100% 100% at 100% 0, var(--c1) 4%, var(--_g), rgba(0, 0, 0, 0.5333333333) 96%, rgba(0, 0, 0, 0)), radial-gradient(100% 100% at 0 100%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5333333333) 4%, var(--_g), var(--c1) 96%) var(--c1);
-  background-size: var(--s) var(--s);
+  background-color: grey;
+  height: 40vh;
+  background-image: url("img/aside_img.webp");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 1rem;
 }
 .quote .content {
   text-align: center;
-  margin: auto;
-  height: 100%;
 }
 .quote .content .quote-text {
-  color: black;
-  background-color: #fafafa;
-  padding: 1rem;
   font-size: 1rem;
   margin-bottom: 1rem;
-  max-width: 85%;
-  height: 100%;
-  margin: auto;
-  border-radius: 0.5rem;
-}
-@media (min-width: 600px) {
-  .quote .content .quote-text {
-    max-width: 50%;
-  }
 }
 
 #search {
@@ -905,9 +882,9 @@ img {
   cursor: pointer;
 }
 
-.user-recipes {
+.recipes {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: stretch;
   flex-wrap: wrap;
   gap: 1rem;

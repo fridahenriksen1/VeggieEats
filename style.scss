@@ -183,7 +183,6 @@ img {
 }
 
 #hero {
-  position: relative;
   color: black;
   position: relative;
   text-align: center;
@@ -234,15 +233,16 @@ img {
 }
 
 .popular {
+  margin-bottom: 1rem;
   // margin:2rem 0;
-  padding: 1.5rem 0rem;
+  // padding: 1.5rem 0rem;
 
-  @include bp-sm {
-    padding: 1.5rem 1rem;
-  }
+  // @include bp-sm {
+  //   padding: 1.5rem 1rem;
+  // }
 
   .popular-cards {
-    @include flexbox(center, stretch, wrap);
+    @include flexbox(flex-start, stretch, wrap);
     gap: 1rem;
     margin-top: 1.5rem;
   }
@@ -262,12 +262,12 @@ img {
   // display: flex;
   // flex:1 auto;
   @include bp-sm {
-    flex: 0 0 calc(100% / 2 - 1rem);
+    flex: 0 0 calc((100% / 2) - (((2 - 1) / 2) * 1rem));
     // padding-bottom:10rem;
   }
 
   @include bp-lg {
-    flex: 0 0 calc(100% / 3 - 1rem);
+    flex: 0 0 calc((100% / 3) - (((3 - 1) / 3) * 1rem));
   }
 
   @include bp-xl {
@@ -370,8 +370,21 @@ img {
 .quote {
   //background-color: #B8B89E;
   // @include flexbox(row,center,center,nowrap );
-  padding: 5rem 0;
+  // padding: 5rem 0;
 
+  //color: black;
+  //position: relative;
+  //text-align: center;
+  background-color: grey;
+  // width: 100vw;
+  height: 40vh;
+  background-image: url("img/aside_img.webp");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   //!Om vi vill ha full container så är det bara att kommentera ut från rad 299 till 304
   // padding: 9rem 0;
   // width: 100vw;
@@ -380,32 +393,33 @@ img {
   // height: 100px;
   // left: 50%;
 
-  width: 100%;
-  height: 100%;
-  --s: 100px;
-  /* control the size */
-  --c1: #ffff;
-  --c2: #d3d8d4;
+  //möstret
+  // width: 100%;
+  // height: 100%;
+  // --s: 100px;
+  // /* control the size */
+  // --c1: #ffff;
+  // --c2: #d3d8d4;
 
-  --_g: var(--c2) 6% 14%, var(--c1) 16% 24%, var(--c2) 26% 34%,
-    var(--c1) 36% 44%, var(--c2) 46% 54%, var(--c1) 56% 64%, var(--c2) 66% 74%,
-    var(--c1) 76% 84%, var(--c2) 86% 94%;
-  background: radial-gradient(
-      100% 100% at 100% 0,
-      var(--c1) 4%,
-      var(--_g),
-      #0008 96%,
-      #0000
-    ),
-    radial-gradient(
-        100% 100% at 0 100%,
-        #0000,
-        #0008 4%,
-        var(--_g),
-        var(--c1) 96%
-      )
-      var(--c1);
-  background-size: var(--s) var(--s);
+  // --_g: var(--c2) 6% 14%, var(--c1) 16% 24%, var(--c2) 26% 34%,
+  //   var(--c1) 36% 44%, var(--c2) 46% 54%, var(--c1) 56% 64%, var(--c2) 66% 74%,
+  //   var(--c1) 76% 84%, var(--c2) 86% 94%;
+  // background: radial-gradient(
+  //     100% 100% at 100% 0,
+  //     var(--c1) 4%,
+  //     var(--_g),
+  //     #0008 96%,
+  //     #0000
+  //   ),
+  //   radial-gradient(
+  //       100% 100% at 0 100%,
+  //       #0000,
+  //       #0008 4%,
+  //       var(--_g),
+  //       var(--c1) 96%
+  //     )
+  //     var(--c1);
+  // background-size: var(--s) var(--s);
 
   border-radius: 1rem;
   // width: 100vw;
@@ -419,25 +433,25 @@ img {
 
   .content {
     text-align: center;
-    margin: auto;
-    height: 100%;
+    // margin: auto;
+    // height: 100%;
 
     .quote-text {
-      color: black;
-      background-color: #fafafa;
-      padding: 1rem;
+      //color: black;
+      //background-color: #fafafa;
+      //padding: 1rem;
       font-size: 1rem;
       margin-bottom: 1rem;
-      max-width: 85%;
-      height: 100%;
-      margin: auto;
-      border-radius: 0.5rem;
+      // max-width: 85%;
+      //height: 100%;
+      // margin: auto;
+      //border-radius: 0.5rem;
       //text-align: center;
       //flex: 0 0 50%;
       //display: flex;
-      @media (min-width: 600px) {
-        max-width: 50%;
-      }
+      // @media (min-width: 600px) {
+      //   max-width: 50%;
+      // }
     }
   }
 }
@@ -473,8 +487,8 @@ img {
   }
 }
 
-.user-recipes {
-  @include flexbox(center, stretch, wrap);
+.recipes {
+  @include flexbox(flex-start, stretch, wrap);
   gap: 1rem;
   padding-bottom: 1rem;
 }

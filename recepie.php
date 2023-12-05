@@ -38,7 +38,7 @@
                 <label for="categoryEight">Potatis</label>
             </form>
         </section>
-        <section class="user-recipes container" data-user-cards>
+        <section class="recipes container" data-user-cards>
             <!-- Use <template> to hold some content that will be hidden when the page loads. Use JavaScript to display it:  -->
             <template data-user-template>
                 <article class="card">
