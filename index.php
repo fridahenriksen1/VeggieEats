@@ -22,7 +22,7 @@ include("inc/abtest.php"); -->
     <main class="container main-container">
         <section class="popular">
             <h2>Nya recept</h2>
-            <article class="popular-cards" data-user-popular>
+            <article class="recipes" data-user-popular>
                 <template data-user-template>
                     <article class="card">
                         <a class="card-content" href="" data-link>
@@ -56,7 +56,7 @@ include("inc/abtest.php"); -->
         </aside>
         <section class="popular">
             <h2>För nybörjare</h2>
-            <article class="popular-cards" data-user-popular2>
+            <article class="recipes" data-user-popular2>
                 <!-- rör ej template HTML -->
                 <template data-user-template>
                     <article class="card">
@@ -85,7 +85,7 @@ include("inc/abtest.php"); -->
         </aside>
         <section class="popular">
             <h2>Gamla goingar</h2>
-            <article class="popular-cards" data-user-popular3="">
+            <article class="recipes" data-user-popular3="">
                 <!-- rör ej template HTML -->
                 <template data-user-template>
                     <article class="card">
