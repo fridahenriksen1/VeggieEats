@@ -570,6 +570,20 @@ a {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #ffffff;
 }
+.btn:hover {
+  letter-spacing: 0.5px;
+  background-color: hsl(46, 23%, 14%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(44, 43, 29) 0px 7px 29px 0px;
+}
+.btn:active {
+  letter-spacing: 0.5px;
+  background-color: hsl(46, 23%, 14%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(44, 43, 29) 0px 7px 29px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
 
 .btn-primary {
   display: inline-block;
@@ -582,6 +596,20 @@ a {
   color: white;
   margin-top: 10px;
 }
+.btn-primary:hover {
+  letter-spacing: 0.5px;
+  background-color: hsl(46, 23%, 14%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(44, 43, 29) 0px 7px 29px 0px;
+}
+.btn-primary:active {
+  letter-spacing: 0.5px;
+  background-color: hsl(46, 23%, 14%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(44, 43, 29) 0px 7px 29px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
 
 .btn-secondary {
   display: inline-block;
@@ -592,6 +620,20 @@ a {
   border: 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: coral;
+}
+.btn-secondary:hover {
+  letter-spacing: 0.5px;
+  background-color: hsl(46, 23%, 14%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(44, 43, 29) 0px 7px 29px 0px;
+}
+.btn-secondary:active {
+  letter-spacing: 0.5px;
+  background-color: hsl(46, 23%, 14%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(44, 43, 29) 0px 7px 29px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
 }
 
 body {
