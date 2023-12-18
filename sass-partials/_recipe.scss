@@ -1,6 +1,6 @@
 .recept {
   .bigBox {
-    background-color: $white-colore;
+    background-color: $white-color;
 
     @include bp-sm {
       padding-top: 3rem;
@@ -130,6 +130,7 @@
       h2 {
         margin-left: 1rem;
         margin-bottom: 1.8rem;
+        font-family: $primary-text;
       }
 
       .steps-list {
@@ -141,6 +142,7 @@
         margin: 1rem;
         padding: 1rem;
         border-radius: 5px;
+        font-family: $secondary-text;
       }
       ul {
         list-style-type: none;
