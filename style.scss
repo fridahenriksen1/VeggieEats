@@ -3,7 +3,6 @@
 @import "sass-partials/reset";
 @import "sass-partials/typography";
 
-@import "sass-partials/breakpoints";
 @import "sass-partials/recipe";
 @import "sass-partials/cookie";
 @import "sass-partials/footer";
@@ -160,8 +159,6 @@ img {
     left: 50%;
     z-index: 3;
     transform: translate(-50%, -50%);
-
-    // @include flexbox(column, center, center,nowrap);
     .hero-text {
       font-size: 1rem;
       color: $hero-color-text;
@@ -246,6 +243,10 @@ img {
   .card-text {
     color: $black-color;
     margin: 1rem 0;
+
+    h2 {
+      font-family: $primary-text;
+    }
 
     .style-chips {
       display: inline-block;
