@@ -192,11 +192,11 @@ img {
 
   margin-bottom: 1rem;
 
-  .popular-cards {
-    @include flexbox(flex-start, stretch, wrap);
-    gap: 1rem;
-    margin-top: 1.5rem;
-  }
+  // .popular-cards {
+  //   @include flexbox(flex-start, stretch, wrap);
+  //   gap: 1rem;
+  //   margin-top: 1.5rem;
+  // }
 }
 
 .card {
