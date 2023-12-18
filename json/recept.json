@@ -168,9 +168,9 @@
     "time": "ca 30 min",
     "portions": "4 port",
     "buyIngredients": "11 ingredienser",
-    "imageURL": "../img/Krämig-kantarell-hallomipasta-1200.webp",
-    "image400": "../img/Krämig-kantarell-hallomipasta-400.webp",
-    "image800": "../img/Krämig-kantarell-hallomipasta-800.webp",
+    "imageURL": "../img/Krämig hallomi-poesto-pasta-1200.webp",
+    "image400": "../img/Krämig hallomi-poesto-pasta-400.webp",
+    "image800": "../img/Krämig hallomi-poesto-pasta-400.webp.webp",
     "altText": "I en panna syns pasta fysilli. Bilden är rörig och det ger en känsla av att mattlagningen är pågående men väldogt nära klar. I pastan syns kantareller, hallomi, ost och pinjenötter.",
     "credURL": "p/Cv7RPK6uRr_"
   },
@@ -1368,6 +1368,94 @@
     "imageURL": "../img/pankofriterade-fetaostbiffar-1200.webp",
     "image400": "../img/pankofriterade-fetaostbiffar-400.webp",
     "image800": "../img/pankofriterade-fetaostbiffar-800.webp",
+    "altText": "På en blå tallrik syns pankobiffarna, ungspotatis, en rosa sås och en mindre salladsblandning. ",
+    "credURL": "p/CrYRT9Es52L/?img_index=1"
+  },
+  {
+    "id": 20,
+    "name": "Krämig kantarell- och halloumipasta med tryffel",
+    "source": "instagram",
+    "category": "Pasta",
+    "description": "Tycker att ni ska testa denna enkla och krämiga kantarellpasta! Passa på när det är kantarellsäsong.",
+    "ingredients": [
+      {
+        "quantity": "250 g",
+        "name": "Kantareller",
+        "type": "mushroom"
+      },
+      {
+        "quantity": "200 g",
+        "name": "Halloumi",
+        "type": "cheese"
+      },
+      {
+        "quantity": "120 g",
+        "name": "Pasta",
+        "type": "Pasta"
+      },
+      {
+        "quantity": "2 dl",
+        "name": "Creme fraiche eller grädde",
+        "type": "Dairy"
+      },
+      {
+        "quantity": "2",
+        "name": "Gul lök eller schalottenlök",
+        "type": "Vegetables"
+      },
+      {
+        "quantity": "2",
+        "name": "vitlöksklyftor",
+        "type": "Vegetables"
+      },
+      {
+        "quantity": "1 msk",
+        "name": "Tryffelolja",
+        "type": "oil"
+      },
+      {
+        "quantity": "1 msk",
+        "name": "Pinjenötter",
+        "type": "nuts"
+      },
+      {
+        "quantity": "Till servering",
+        "name": "parmesan",
+        "type": "oil"
+      },
+      {
+        "quantity": "100 g",
+        "name": "blandspelant",
+        "type": "Vegetables"
+      },
+      {
+        "quantity": "",
+        "name": "Salt",
+        "type": "Spices"
+      },
+      {
+        "quantity": "",
+        "name": "peppar",
+        "type": "Spices"
+      }
+    ],
+    "steps": [
+      "Stek kantarellerna ihop med lök och smör.",
+      "Halloumin för sig.",
+      "Krydda med salt och peppar.",
+      "Koka pasta under tiden.",
+      "Blanda sedan i alla ingredienser bland kantarellerna och smaka av såsen.",
+      "Ha i lite chili om du gillar hetta.",
+      "Toppa med parmesan, vit tryffelolja och pinjenötter!"
+    ],
+    "timers": [0, 0, 0, 0, 0, 600, 0],
+    "html": "kramig-kantarell-och-halloumipasta-med-tryffel.php",
+    "time": "ca 45 min",
+    "portions": "4 port",
+    "buyIngredients": "12 ingredienser",
+    "imageURL": "../img/Krämig-kantarell-hallomipasta-1200.webp",
+    "image400": "../img/Krämig-kantarell-hallomipasta-400.webp",
+    "image800": "../img/Krämig-kantarell-hallomipasta-800.webp",
     "altText": "På en blå tallrik syns pankobiffarna, ungspotatis, en rosa sås och en mindre salladsblandning. ",
     "credURL": "p/CrYRT9Es52L/?img_index=1"
   }
