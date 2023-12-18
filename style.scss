@@ -11,9 +11,6 @@
 
 @import "sass-partials/components/buttons";
 
-//! componenter från lektionen
-// @import 'sass/komponenter/buttons';
-
 body {
   font-family: $primary-text;
   background-color: #eff2f0;
@@ -33,32 +30,7 @@ img {
 
   &.main-container {
     padding: 0 1.8rem;
-    //background-color: #eff2f0;
   }
-
-  // .tips-contaner {
-  //     margin: auto;
-
-  //     h2 {
-  //         text-align: center;
-  //         padding: 2rem 0 1rem 0;
-  //     }
-
-  //     .tips-ul {
-  //         max-width: 38rem;
-  //         margin: auto;
-
-  //         .tips-li {
-  //             padding: 1rem 0;
-  //             list-style: none;
-  //         }
-  //     }
-  // }
-
-  // p {
-  //     margin: 0 0 13px 0;
-  // }
-
   .tips-container {
     width: 95%;
     max-width: 1220px;
@@ -69,13 +41,10 @@ img {
     display: grid;
     grid-template-columns: 1fr 3fr;
     position: relative;
-    //padding-top: 2rem;
-
     &:first-child {
       padding-top: 2rem;
     }
   }
-
   .episode__number {
     font-size: 5vw;
     font-weight: 600;
@@ -86,30 +55,24 @@ img {
     height: calc(10vw + 20px);
     transition: all 0.2s ease-in;
   }
-
   .episode__content {
     border-top: 3px solid $primary-color;
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-gap: 10px;
     padding: 15px 0;
-
     .title {
       font-weight: 600;
     }
-
     .story {
       line-height: 26px;
       display: flex;
       flex-wrap: wrap;
       justify-content: flex-end;
-
       p {
         padding-bottom: 1rem;
       }
-
       .fig-tips {
-        //max-width: 20rem;
         flex: 0 1 20rem;
         max-height: 25rem;
         padding: 1rem 0;
@@ -146,14 +109,8 @@ img {
   .logo {
     color: rgb(11, 11, 11);
     font-size: 1.2rem;
-    //font-weight: 700;
-    //font-family: 'Oswald', sans-serif;
     font-family: $logo-text;
     font-weight: 400;
-
-    // @include bp-sm {
-    //   font-size: 2rem;
-    // }
   }
 
   .main-nav {
@@ -166,7 +123,6 @@ img {
 
         .link {
           color: $neutral-dark;
-          // color: #212121;
           font-size: 0.9rem;
         }
       }
@@ -219,7 +175,6 @@ img {
   }
 
   .overlay {
-    //filter: blur(4px);
     position: absolute;
     z-index: 2;
     top: 0;
@@ -228,15 +183,11 @@ img {
     left: 0;
     background: black;
     opacity: 60%;
-
-    // backdrop-filter: blur(1px);
   }
 }
 
 .popular {
-  // margin:2rem 0;
   padding: 1.5rem 0rem;
-
   @include bp-sm {
     padding: 1.5rem 1rem;
   }
@@ -249,29 +200,17 @@ img {
 }
 
 .card {
-  // height: 350px;
-  // border-radius: 1rem;
   flex: 1 auto;
-
-  // padding-bottom:9rem;
   border: solid 1px #f3f0f0;
   background-color: #fafafa;
   padding: 1rem;
   border-radius: 10px;
-
-  // display: flex;
-  // flex:1 auto;
   @include bp-sm {
     flex: 0 0 calc(100% / 2 - 1rem);
-    // padding-bottom:10rem;
   }
 
   @include bp-lg {
     flex: 0 0 calc(100% / 3 - 1rem);
-  }
-
-  @include bp-xl {
-    // padding-bottom:12rem;
   }
 
   .card-content {
@@ -280,15 +219,6 @@ img {
     height: 100%;
     justify-content: space-between;
   }
-
-  // .gradient{
-  //     top: 0;
-  //     bottom: 0;
-  //     left: 0;
-  //     right: 0;
-  //     position: absolute;
-  //     background: transparent linear-gradient(180deg, #A3A3A300 0%, #0F0F0F 100%) 0% 0% no-repeat padding-box;
-  // }
 
   .img-box {
     height: 200px;
@@ -299,10 +229,6 @@ img {
     padding: 0.2rem 0.8rem;
     border-radius: 1rem;
   }
-
-  // .card-bg:hover{
-  //   transform: scale(1.1);
-  // }
 
   .card-time {
     position: absolute;
@@ -338,31 +264,9 @@ img {
       cursor: pointer;
       margin-bottom: 1rem;
     }
-
-    // .card-rating {
-    //     display: inline-flex;
-    //     align-items: center;
-    //     color: #212121;
-    //     font-size: 0.8rem;
-    //     margin-bottom: .7rem;
-
-    //     .star {
-    //         color: rgb(255, 200, 0);
-    //         margin-right: .5rem;
-    //         font-size: 1.2rem;
-
-    //         font-variation-settings:
-    //             'FILL' 1,
-    //             'wght' 400,
-    //             'GRAD' 0,
-    //             'opsz' 48
-    //     }
-
-    // }
   }
 
   img {
-    // height: 100%;
     object-fit: cover;
   }
 
@@ -370,30 +274,15 @@ img {
     display: none;
   }
 }
-// .card :hover {
-//   transform: scale(1.1);
-// }
 
 .quote {
-  //background-color: #B8B89E;
-  // @include flexbox(row,center,center,nowrap );
   padding: 5rem 0;
-
-  //!Om vi vill ha full container så är det bara att kommentera ut från rad 299 till 304
-  // padding: 9rem 0;
-  // width: 100vw;
-  // position: relative;
-  // margin-left: -50vw;
-  // height: 100px;
-  // left: 50%;
-
   width: 100%;
   height: 100%;
   --s: 100px;
   /* control the size */
   --c1: #ffff;
   --c2: #d3d8d4;
-
   --_g: var(--c2) 6% 14%, var(--c1) 16% 24%, var(--c2) 26% 34%,
     var(--c1) 36% 44%, var(--c2) 46% 54%, var(--c1) 56% 64%, var(--c2) 66% 74%,
     var(--c1) 76% 84%, var(--c2) 86% 94%;
@@ -413,17 +302,7 @@ img {
       )
       var(--c1);
   background-size: var(--s) var(--s);
-
   border-radius: 1rem;
-  // width: 100vw;
-  // margin-left: -16.5vw;
-
-  //margin: auto;
-
-  // .btn {
-  //     background-color: blue;
-  // }
-
   .content {
     text-align: center;
     margin: auto;
@@ -439,9 +318,6 @@ img {
       height: 100%;
       margin: auto;
       border-radius: 0.5rem;
-      //text-align: center;
-      //flex: 0 0 50%;
-      //display: flex;
       @media (min-width: 600px) {
         max-width: 50%;
       }
@@ -486,10 +362,6 @@ img {
   padding-bottom: 1rem;
 }
 
-// .chips{
-//     padding: 1rem 2rem;
-// }
-
 #categorys {
   margin-top: 1rem;
 }
@@ -501,7 +373,6 @@ img {
     border-radius: 5rem;
     padding: 0.5rem 1.5rem;
     margin-bottom: 0.4rem;
-    //color: white;
     font-size: 1rem;
     user-select: none;
     cursor: pointer;
@@ -527,7 +398,6 @@ img {
 .news {
   margin: 2rem 0;
   @include flexbox($justify: flex-start, $alignItem: stretch, $wrap: wrap);
-
   h2 {
     width: 100%;
     margin-bottom: 1rem;

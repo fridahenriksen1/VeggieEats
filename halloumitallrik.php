@@ -5,15 +5,10 @@
     ?>
     <main class="container ">
         <div class="recept" id="18">
-
-
-
-
         </div>
     </main>
     <footer id="main-footer">
         <section class="footer-inside">
-    
             <button id="cookie-settings-button" class="cookie-settings-button">Kakinställningar</button>
             <p class="footer-text">©Copyright 2023 VegieEats</p>
         </section>
@@ -40,5 +35,4 @@
     <script src="../js/getRecept.js" defer></script>
     <script src="../cookie-consent/cookie-consent.js"></script>
 </body>
-
 </html>
