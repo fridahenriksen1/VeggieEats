@@ -5,9 +5,6 @@
     ?>
     <main class="container">
         <div class="recept" id="8">
-
-
-
         </div>
     </main>
     <footer id="main-footer">
@@ -17,7 +14,6 @@
         </section>
     </footer>
       <!-- Cookie Popup -->
-      <!-- hej -->
   <div id="cookie-popup" class="cookie-popup">
     <div class="popup-content">
         <span id="close-icon" class="close-icon">×</span>
@@ -39,5 +35,4 @@
     <script src="../js/getRecept.js" defer></script>
     <script src="../cookie-consent/cookie-consent.js"></script>
 </body>
-
 </html>

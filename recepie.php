@@ -3,10 +3,7 @@
     $pagetitel = "VeggieEats";
     include("header.php");
     ?>
-
-
     <main>
-
         <section id="search" class="container">
             <h1>Sök bland alla recept</h1>
             <form id="search-bar" role='search'>
@@ -60,13 +57,10 @@
                             </span>
                             <span data-time></span>
                         </section>
-                        <!-- <div class="gradient"></div> -->
                     </a>
                 </article>
             </template>
-
         </section>
-      
     </main>
     <footer id="main-footer">
         <section class="footer-inside">
@@ -91,12 +85,9 @@
         <button id="ok-button" style="display: none;">Ok</button>
         <div class="b">
             <a href="privacy-policy.php" class="integrity">Integritetspolicy</a>
-
         </div>
     </div>
-    <!-- <script src="js/chatgpt.js"></script> -->
     <script src="js/script.js" defer></script>
     <script src="cookie-consent/cookie-consent.js"></script>
 </body>
-
 </html>

@@ -1,22 +1,12 @@
 
-<!-- session_start();
-$urlB = "indextwo.php";
-include("inc/abtest.php"); -->
-
-
     <?php 
     $pagetitel = "VeggieEats";
     include("header.php");
     ?>
-
     <section id="hero" class="img-header">
-        <!-- <img src="/img/kantarellPasta.webp" alt="kantarell pasta" rel="preload"> -->
         <article class="content">
             <h1 class="hero-text">Att äta mer vegetariskt ska vara lätt, vi är här för att hjälpa dig</h1>
-            <!-- <p>Att äta mer vegitariskt ska vara lätt, vi är här för att hjälpa dig</p> -->
-            <!-- <a class="btn" href="recepie.html">Hitta ditt nya</a> -->
         </article>
-        <!-- Vet inte vad för semantiskt element man ska använda här -->
         <div class="overlay"></div>
     </section>
     <main class="container main-container">
@@ -42,7 +32,6 @@ include("inc/abtest.php"); -->
                                 </span>
                                 <span data-time></span>
                             </section>
-                            <!-- <div class="gradient"></div> -->
                         </a>
                     </article>
                 </template>
@@ -70,8 +59,6 @@ include("inc/abtest.php"); -->
                                 </span>
                                 <span data-time></span>
                             </figcaption>
-
-                            <!-- <div class="gradient"></div> -->
                         </a>
                     </article>
                 </template>
@@ -90,69 +77,19 @@ include("inc/abtest.php"); -->
                 <template data-user-template>
                     <article class="card">
                         <a href="" data-link>
-
                             <p data-cat></p>
-                            <!-- Testar lägga till time -->
                             <p data-time></p>
                             <h3 data-header></h3>
                             </header>
                             <img data-image>
-                            <!-- <div class="gradient"></div> -->
                         </a>
                         <article class="card-text">
-
-
                         </article>
                 </template>
             </article>
         </section>
-
-        <!-- Vi kan ta bort sen -->
-        <!-- <section class="news">
-            <h2>Blogg</h2>
-            <article class="news-card">
-                <figure>
-                    <img src="img/graddig-vegansk-svampstroganoff-med-ris.jpg" alt="">
-                </figure>
-                <figcaption>
-                    <h3>Så sparar du mat</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum iusto nulla vitae officia, magnam
-                        soluta totam at hic nihil rem inventore dolorem minus culpa in a rerum esse atque? Est.</p>
-                </figcaption>
-                <a href="blogPosts/sa-sparar-du-mat.html" class="btn">Läs mer</a>
-            </article>
-            <article class="news-card">
-                <figure>
-                    <img src="img/graddig-vegansk-svampstroganoff-med-ris.jpg" alt="">
-                </figure>
-                <figcaption>
-                    <h3>Så sparar du mat</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum iusto nulla vitae officia, magnam
-                        soluta totam at hic nihil rem inventore dolorem minus culpa in a rerum esse atque? Est.</p>
-                </figcaption>
-                <a href="blogPosts/sa-sparar-du-mat.html" class="btn">Läs mer</a>
-            </article>
-        </section> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </main>
     </main>
-
-    <!-- Ta med allt nerifrån här till och med html i en footer.php -->
-
     <footer id="main-footer">
         <section class="footer-inside">
 
@@ -160,10 +97,6 @@ include("inc/abtest.php"); -->
             <p class="footer-text">©Copyright 2023 VegieEats</p>
         </section>
     </footer>
-
-
-
-
   <!-- Cookie Popup -->
   <div id="cookie-popup" class="cookie-popup">
     <div class="popup-content">
@@ -181,17 +114,10 @@ include("inc/abtest.php"); -->
         <button id="ok-button" style="display: none;">Godkänn</button>
         <div class="b">
         <a href="privacy-policy.php" class="integrity">Integritetspolicy</a>
-
         </div>
     </div>
-
-
-    <!-- <script src="js/chatgpt.js"></script> -->
     <script src="cookie-consent/cookie-consent.js"></script>
     <script src="js/script.js"></script>
     <script src="js/getRecept.js"></script>
-
-    <!-- <script src="js/getRecept.js"></script> -->
 </body>
-
 </html>
