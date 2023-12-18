@@ -1,6 +1,6 @@
 .recept {
   .bigBox {
-    background-color: white;
+    background-color: $white-colore;
 
     @include bp-sm {
       padding-top: 3rem;
@@ -13,13 +13,10 @@
 
     @include bp-lg {
       display: flex;
-      //justify-content: center;
       justify-content: space-around;
-      //padding:5rem;
     }
 
     .section3 {
-      //  background-color: red;
       padding-top: 3.5rem;
       margin-bottom: 2rem;
       @include bp-sm {
@@ -27,24 +24,16 @@
       }
       //!Här är rubriken i recept
       .recipe-heading {
-        // padding-top:3rem;
-        //  padding-left:1rem;
-        //text-align: center;
         margin-left: 0.8rem;
       }
       .recept-img {
         padding: 1rem;
-
-        // margin: auto;
-
         @include bp-sm {
           height: 380px;
-
           width: 380px;
         }
         @include bp-lg {
           height: 500px;
-
           width: 500px;
         }
         img {
@@ -55,43 +44,25 @@
         }
       }
       .time-ingredients-container {
-        // margin: 2rem 1rem;
         background-color: $cta-color;
         padding: 2rem 1rem;
         border-radius: 5px;
         margin: 0rem 1rem;
-
-        //max-width: 348px;
-
-        // margin: auto;
-        //justify-content: center;
         @include bp-sm {
           max-width: 380px;
         }
-
-        @include bp-lg {
-          //max-width: 380px;
-        }
-
         @include flex-spacebetween(space-around);
-
         @include bp-lg {
           max-width: 470px;
         }
         .time-box {
-          // display: flex;
-          // align-items: center;
-
           text-align: center;
-
           .material-symbols-outlined {
             display: block;
             margin-bottom: 0.5rem;
           }
         }
         .ingridients-box {
-          // display: flex;
-          // align-items: center;
           text-align: center;
           .material-symbols-outlined {
             display: block;
@@ -107,8 +78,6 @@
         }
         .time-recipe {
           font-size: 1rem;
-
-          // @include flexbox(stretch);
         }
         //!Hur många ingredinser som är i receptet
         .buy-ingredients {
@@ -123,17 +92,11 @@
 
       //!Information i recept sidorna
       .info-recipe {
-        //padding-top: 1rem;
-        background-color: white;
-        //background-color: $ingredients-color;
+        background-color: $white-color;
         padding: 2rem 0rem;
-        //margin-bottom: 2rem;
         border-radius: 5px;
-        // margin: 3rem 0rem;
         max-width: 400px;
-        // margin: auto;
         margin-left: 1rem;
-
         @include bp-lg {
           max-width: 470px;
         }
@@ -150,26 +113,10 @@
         text-decoration: underline;
         margin-left: 1rem;
       }
-
-      // .cred-text{
-
-      //     margin-left: 1rem;
-      //  }
-      // .credIca-text{
-      //     margin-left: 1rem;
-
-      // }
-      // .credArla-text{
-      //     margin-left: 1rem;
-
-      // }
     }
   }
 
   .howToMake {
-    // @include bp-sm {
-    //     margin: 0rem 0rem;
-    // }
     @include bp-lg {
       margin: 4.9rem 0rem;
     }
@@ -179,12 +126,7 @@
 
     //! container runt "ingredinser" och "Gör såhär"
     .steps-container {
-      //padding: 3rem 0rem;
-      // background-color: $steps-container-color;
       max-width: 600px;
-
-      //margin: auto;
-
       h2 {
         margin-left: 1rem;
         margin-bottom: 1.8rem;
@@ -200,16 +142,6 @@
         padding: 1rem;
         border-radius: 5px;
       }
-
-      // .steps-list-howTo{
-      //    // justify-content: center;
-      //     li{
-      //         list-style:circle;
-      //         list-style-position: inside;
-      //     }
-
-      // }
-
       ul {
         list-style-type: none;
         padding-bottom: 1.5rem;
@@ -231,26 +163,19 @@
 }
 
 #list {
-  --background: #fff;
+  --background: $white-color;
   --text: #414856;
   --check: #4f29f0;
   --disabled: #c3c8de;
   --width: 100px;
   --height: 180px;
   --border-radius: 10px;
-  // background: var(--background);
-  // width: var(--width);
-  // height: var(--height);
-  // border-radius: var(--border-radius);
   position: relative;
-  // box-shadow: 0 10px 30px rgba(65, 72, 86, 0.05);
-  // padding: 30px 85px;
   list-style: none;
 
   li {
     display: grid;
     grid-template-columns: 30px auto;
-    // align-items: center;
   }
 
   input[type="checkbox"] {
@@ -301,7 +226,6 @@
       }
 
       & + label {
-        //color: var(--disabled);
         color: #4b5687;
         animation: move 0.3s ease 0.1s forwards;
 
@@ -336,13 +260,10 @@
     }
 
     &::before {
-      //height: 2px;
       width: 8px;
       left: -27px;
       top: 7px;
-      //background: var(--check);
       border-radius: 2px;
-      //transition: background 0.3s ease;
     }
 
     &::after {
