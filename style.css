@@ -227,7 +227,7 @@ a {
 }
 
 #list {
-  --background: $white-color;
+  --background: white;
   --text: #414856;
   --check: #4f29f0;
   --disabled: #c3c8de;

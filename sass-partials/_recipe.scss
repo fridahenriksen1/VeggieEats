@@ -138,7 +138,7 @@
         list-style: none;
       }
       li {
-        background-color: $ingredients-color;
+        background-color: #ffd9a0;
         margin: 1rem;
         padding: 1rem;
         border-radius: 5px;
@@ -165,7 +165,7 @@
 }
 
 #list {
-  --background: $white-color;
+  --background: white;
   --text: #414856;
   --check: #4f29f0;
   --disabled: #c3c8de;
