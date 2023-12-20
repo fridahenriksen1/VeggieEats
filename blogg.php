@@ -7,18 +7,12 @@
     <section id="hero" class="img-header">
         <article class="content">
             <h1 class="hero-text">Här kommer en samling tips till dig som vill försöka äta mindre kött</h1>
-            <!-- <p>Att äta mer vegitariskt ska vara lätt, vi är här för att hjälpa dig</p> -->
-            <!-- <a class="btn" href="recepie.html">Hitta ditt nya</a> -->
         </article>
-        <!-- Vet inte vad för semantiskt element man ska använda här -->
         <div class="overlay"></div>
     </section>
-
     <main class="container main-container">
         <section class="tips-contaner">
-
             <article class="episode">
-
                 <article class="episode__number">01</article>
                 <section class="episode__content">
                     <h4 class="title">Planera dina måltider:</h4>
@@ -38,12 +32,10 @@
                             (max-width:800px) 100vw, 800px
                             " alt="kalender i block">
                         </figure>
-
                     </article>
                 </section>
             </article>
             <article class="episode">
-
                 <article class="episode__number">02</article>
                 <section class="episode__content">
                     <h4 class="title">Utforska vegetariska recept:</h4>
@@ -65,12 +57,10 @@
                             (max-width:800px) 100vw, 800px
                             " alt="två personer står vi ett bord och lagar mat. Man ser allt ovanifrån och ser abra personerans h'nder ch massa skålar med preppad mat i.">
                         </figure>
-
                     </article>
                 </section>
             </article>
             <article class="episode">
-
                 <article class="episode__number">03</article>
                 <section class="episode__content">
                     <h4 class="title">Byt ut köttet:</h4>
@@ -99,14 +89,10 @@
                             (max-width:800px) 100vw, 800px
                             " alt="bönor och lincer i olika skålar står i en cirkel">
                         </figure>
-
                     </article>
                 </section>
             </article>
-
-
             <article class="episode">
-
                 <article class="episode__number">04</article>
                 <section class="episode__content">
                     <h4 class="title">Lär dig krydda:</h4>
@@ -122,12 +108,10 @@
                             (max-width:800px) 100vw, 800px
                             " alt="fyra uppradade skedar med kryddor på">
                         </figure>
-
                     </article>
                 </section>
             </article>
             <article class="episode">
-
                 <article class="episode__number">05</article>
                 <section class="episode__content">
                     <h4 class="title">Bli medveten om näringsämnen:</h4>
@@ -148,12 +132,10 @@
                             (max-width:800px) 100vw, 800px
                             " alt="marinerad tofu i genomskinlig skål">
                         </figure>
-
                     </article>
                 </section>
             </article>
             <article class="episode">
-
                 <article class="episode__number">06</article>
                 <section class="episode__content">
                     <h4 class="title">Var tålmodig:</h4>
@@ -169,11 +151,9 @@
                             (max-width:800px) 100vw, 800px
                             " alt="en kille och en tjeje står och laggar mat i kök, båda ser glada ut">
                         </figure>
-
                     </article>
                 </section>
             </article>
-
         </section>
     </main>
     <footer id="main-footer">
@@ -200,12 +180,9 @@
         <button id="ok-button" style="display: none;">Ok</button>
         <div class="b">
         <a href="privacy-policy.php" class="integrity">Integritetspolicy</a>
-
         </div>
     </div>
-    <!-- <script src="js/chatgpt.js"></script> -->
     <script src="js/script.js"></script>
     <script src="../cookie-consent/cookie-consent.js"></script>
 </body>
-
 </html>

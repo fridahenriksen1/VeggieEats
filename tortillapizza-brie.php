@@ -5,10 +5,6 @@
     ?>
     <main class="container ">
         <div class="recept" id="17">
-
-
-
-
         </div>
     </main>
     <footer id="main-footer">
@@ -39,5 +35,4 @@
     <script src="../js/getRecept.js" defer></script>
     <script src="../cookie-consent/cookie-consent.js"></script>
 </body>
-
 </html>

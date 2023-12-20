@@ -1,53 +1,14 @@
-<!-- <!DOCTYPE html>
-<html lang="sv">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VeggieEats</title>
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"> -->
-    <!-- Oswald -->
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-
-    <link rel="stylesheet" href="../style.css">
-</head>
-
-<body>
-    <header class="main-header">
-        <div class="container">
-            <a class="logo" href="/index.html">VeggieEats</a>
-            <nav class="main-nav">
-                <ul class="main-menu">
-                    <li class="main-menu-item">
-                        <a class="link" href="/recepie.html">Alla recept</a>
-                    </li>
-                    <li class="main-menu-item">
-                        <a class="link" href="/blogg.html">Tips</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header> -->
 
     <?php 
     $pagetitel = "Enskilda recept";
     include("header.php");
     ?>
-
     <main class="container ">
         <div class="recept" id="16">
-
-
-
-
         </div>
     </main>
     <footer id="main-footer">
         <section class="footer-inside">
-       
             <button id="cookie-settings-button" class="cookie-settings-button">Kakinställningar</button>
             <p class="footer-text">©Copyright 2023 VegieEats</p>
         </section>
@@ -75,5 +36,4 @@
     <script src="../js/getRecept.js" defer></script>
     <script src="../cookie-consent/cookie-consent.js"></script>
 </body>
-
 </html>

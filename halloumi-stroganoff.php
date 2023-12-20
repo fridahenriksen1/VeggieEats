@@ -3,13 +3,8 @@
     $pagetitel = "Enskilda recept";
     include("header.php");
     ?>
-    
     <main class="container ">
         <div class="recept" id="15">
-
-
-
-
         </div>
     </main>
     <footer id="main-footer">
@@ -36,11 +31,9 @@
         <button id="ok-button" style="display: none;">Ok</button>
         <div class="b">
         <a href="privacy-policy.php" class="integrity">Integritetspolicy</a>
-
         </div>
     </div>
     <script src="../js/getRecept.js" defer></script>
     <script src="../cookie-consent/cookie-consent.js"></script>
 </body>
-
 </html>

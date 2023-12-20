@@ -2,29 +2,24 @@
 h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
+  font-family: $primary-text;
   @include bp-sm {
     font-size: 1.5rem;
   }
-  //   @include bp-xl {
-  //     font-size: 3rem;
-  //   }
 }
 h2 {
   font-size: 1.5rem;
-  //margin-bottom: 1rem;
-  // @include bp-xl{
-  //     font-size: 2rem;
-  // }
+  font-family: $primary-text;
 }
 h3 {
   font-size: 1.5rem;
+  font-family: $primary-text;
   @include bp-xl {
     font-size: 2.5rem;
   }
 }
 p {
   line-height: 1.45;
-  //margin-bottom: 1rem;
   font-family: $secondary-text;
   @include bp-xl {
     font-size: 1rem;
