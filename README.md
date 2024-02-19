@@ -1,4 +1,6 @@
-# ReceptInspo
+# VeggieEats
+
+Länk till hemsidan: https://veggieeats.se/index.php
 
 DD22
 Optimering, tester och uppföljning
